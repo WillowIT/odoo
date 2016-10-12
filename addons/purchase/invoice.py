@@ -95,14 +95,22 @@ class AccountInvoice(models.Model):
         if not self.env.context.get('default_journal_id') and self.partner_id and self.currency_id and\
                 self.type in ['in_invoice', 'in_refund'] and\
                 self.currency_id != self.partner_id.property_purchase_currency_id:
-            journal_domain = [
-                ('type', '=', 'purchase'),
-                ('company_id', '=', self.company_id.id),
-                ('currency_id', '=', self.partner_id.property_purchase_currency_id.id),
-            ]
-            default_journal_id = self.env['account.journal'].search(journal_domain, limit=1)
-            if default_journal_id:
-                self.journal_id = default_journal_id
+            if self.journal_id.type != 'purchase' or self.journal_id.company_id != self.company_id or self.journal_id.currency_id != self.partner_id.property_purchase_currency_id:
+                journal_domain = [
+                    ('type', '=', 'purchase'),
+                    ('company_id', '=', self.company_id.id),
+                    ('currency_id', '=', self.partner_id.property_purchase_currency_id.id),
+                ]
+                for fau, cond in ((False, 'type=in_invoice'),(True, 'type=in_invoice'),(False,False),(True,False)):
+                    default_value = self.env['ir.values'].get_default('account.invoice', 'journal_id', company_id=self.company_id.id, for_all_users=fau, condition=cond)
+                    if default_value:
+                        default_journal_id = self.env['account.journal'].search(journal_domain + [('id', '=', default_value)])
+                        if default_journal_id:
+                            break
+                else:
+                    default_journal_id = self.env['account.journal'].search(journal_domain, limit=1)
+                if default_journal_id:
+                    self.journal_id = default_journal_id
         return res
 
     @api.model
