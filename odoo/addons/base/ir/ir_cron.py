@@ -7,6 +7,7 @@ import psycopg2
 import pytz
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
+import re
 
 import odoo
 from odoo import api, fields, models, _
@@ -174,7 +175,11 @@ class ir_cron(models.Model):
 
         cron_whitelist = odoo.tools.config.get("db_cron_whitelist", [])
         if not db_name in cron_whitelist:
-            return False
+            for cw_name in cron_whitelist:
+                if re.match(cw_name, db_name):
+                    break
+            else:
+                return False
 
         # TODO remove 'check' argument from addons/base_action_rule/base_action_rule.py
         """ Try to process one cron job.
