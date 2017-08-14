@@ -171,6 +171,11 @@ class ir_cron(models.Model):
 
     @classmethod
     def _acquire_job(cls, db_name):
+
+        cron_whitelist = odoo.tools.config.get("db_cron_whitelist", [])
+        if not db_name in cron_whitelist:
+            return False
+
         # TODO remove 'check' argument from addons/base_action_rule/base_action_rule.py
         """ Try to process one cron job.
 
