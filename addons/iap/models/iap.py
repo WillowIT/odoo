@@ -8,6 +8,7 @@ import werkzeug.urls
 import requests
 
 from odoo import api, fields, models, exceptions
+from odoo.tools import pycompat
 
 _logger = logging.getLogger(__name__)
 
@@ -81,7 +82,14 @@ def charge(env, key, account_token, credit, description=None, credit_template=No
     :param str key: service identifier
     :param str account_token: user identifier
     :param int credit: cost of the body's operation
-    :param str description:
+    :param description: a description of the purpose of the charge,
+                        the user will be able to see it in their
+                        dashboard
+    :type description: str
+    :param credit_template: a QWeb template to render and show to the
+                            user if their account does not have enough
+                            credits for the requested operation
+    :type credit_template: str
     """
     endpoint = get_endpoint(env)
     params = {
@@ -95,7 +103,7 @@ def charge(env, key, account_token, credit, description=None, credit_template=No
     except InsufficientCreditError as e:
         if credit_template:
             arguments = json.loads(e.args[0])
-            arguments['body'] = env['ir.qweb'].render(credit_template)
+            arguments['body'] = pycompat.to_text(env['ir.qweb'].render(credit_template))
             e.args = (json.dumps(arguments),)
         raise e
     try:
