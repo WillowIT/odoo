@@ -466,7 +466,7 @@ msgstr "שמור"
 #. module: report
 #: model:ir.model.fields,help:report.field_report_paperformat_format
 msgid "Select Proper Paper size"
-msgstr ""
+msgstr "בחר גודל נייר מתאים"
 
 #. module: report
 #: model:ir.ui.view,arch_db:report.external_layout_footer
@@ -580,7 +580,7 @@ msgstr "base.config.settings"
 #. module: report
 #: model:ir.model,name:report.model_ir_actions_report_xml
 msgid "ir.actions.report.xml"
-msgstr ""
+msgstr "ir.actions.report.xml"
 
 #. module: report
 #: model:ir.model,name:report.model_ir_qweb_field_barcode

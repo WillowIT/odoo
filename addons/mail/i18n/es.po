@@ -17,6 +17,7 @@
 # Daniel Santibáñez Polanco <dansanti@gmail.com>, 2016
 # Ana Juaristi <ajuaristio@gmail.com>, 2016
 # Galileo Sanchez <galileopy@gmail.com>, 2016
+# Luis M. Ontalba <luis.martinez@tecnativa.com>, 2016
 # RGB Consulting <odoo@rgbconsulting.com>, 2016
 # Leonardo Chianea <noamixcontenidos@gmail.com>, 2016
 # Mateo Tibaquirá Palacios <nestormateo@gmail.com>, 2016
@@ -936,7 +937,7 @@ msgstr "Canales/socios"
 #: model:ir.actions.client,name:mail.mail_channel_action_client_chat
 #, python-format
 msgid "Chat"
-msgstr "Charla"
+msgstr "Chat"
 
 #. module: mail
 #: selection:mail.channel,channel_type:0
@@ -1228,7 +1229,7 @@ msgstr "Fecha del último mensaje publicado en el registro."
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.message_user_assigned
 msgid "Dear"
-msgstr "Estimado"
+msgstr "Estimado/a"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_subtype_default
@@ -1484,8 +1485,8 @@ msgid ""
 "found and replaces the author_id field in the chatter."
 msgstr ""
 "Dirección de correo del remitente. Este campo se establece cuando no se "
-"encuentra ningún socio coincidente y reemplaza el campo author_id en la "
-"charla."
+"encuentra ninguna empresa coincidente y reemplaza el campo author_id en el "
+"chat."
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
@@ -2613,7 +2614,7 @@ msgstr ""
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_emails_partner_info_form
 msgid "Mailing Opt-Out"
-msgstr "Opción de envío por correo"
+msgstr "No acepta mensajes"
 
 #. module: mail
 #. openerp-web
@@ -4799,7 +4800,7 @@ msgstr ""
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.message_user_assigned
 msgid "You have been assigned to the"
-msgstr "Has sido asignado al"
+msgstr "Ha sido asignado/a al"
 
 #. module: mail
 #. openerp-web
