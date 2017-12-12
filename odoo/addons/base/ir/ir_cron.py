@@ -191,7 +191,7 @@ class ir_cron(models.Model):
             cron_cr.commit()
 
     @classmethod
-    def _acquire_job(cls, db_name):
+    def _process_jobs(cls, db_name):
 
         if not db_whitelisted(db_name):
             return False
