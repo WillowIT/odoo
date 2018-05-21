@@ -3,21 +3,21 @@
 # * product
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2016
+# Martin Trigaux, 2016
 # Roy Edvard Ellingsen <roy@royedvard.com>, 2016
-# Aleksander <aleksander@provendo.no>, 2016
+# Aleksander, 2016
 # Mari Løken <inactive+mari123@transifex.com>, 2016
-# Joachim Flottorp <joachimflottorp@gmail.com>, 2016
+# Joachim Flottorp (Joachim flottorp) <joachimflottorp@gmail.com>, 2016
 # Torvald Baade Bringsvor <bringsvor@bringsvor.com>, 2017
 # Eirik Halvorsen <eirik386@gmail.com>, 2017
-# Jorunn D. Newth <jdn@eyenetworks.no>, 2017
+# Jorunn D. Newth, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-23 13:27+0000\n"
 "PO-Revision-Date: 2017-06-23 13:27+0000\n"
-"Last-Translator: Jorunn D. Newth <jdn@eyenetworks.no>, 2017\n"
+"Last-Translator: Jorunn D. Newth, 2017\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/odoo/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -100,11 +100,17 @@ msgid ""
 "                Intel Iris Pro graphics\n"
 "            "
 msgstr ""
+"2.7GHz quad-core Intel Core i5\n"
+"                Turbo Boost opp til 3.2GHz\n"
+"                8GB (to 4GB) minne\n"
+"                1TB harddisk\n"
+"                Intel Iris Pro-grafikk\n"
+"            "
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_2
 msgid "32 GB"
-msgstr ""
+msgstr "32 GB"
 
 #. module: product
 #: model:product.product,description_sale:product.product_product_4
@@ -293,6 +299,8 @@ msgid ""
 "And at the Apple Online Store, you can configure your iMac with an even more"
 " powerful Intel Core i7 processor, up to 3.5GHz."
 msgstr ""
+"I Apple Online Store kan du sette opp iMac med en enda kraftigere Intel Core"
+" i7-prosessor, opp til 3.5GHz."
 
 #. module: product
 #: model:product.product,website_description:product.product_product_4
@@ -1054,13 +1062,13 @@ msgstr ""
 #: model:product.product,description:product.service_cost_01
 #: model:product.template,description:product.service_cost_01_product_template
 msgid "Example of products to invoice based on cost."
-msgstr ""
+msgstr "Eksempler på produkter å fakturere basert på kostnad."
 
 #. module: product
 #: model:product.product,description:product.product_product_1
 #: model:product.template,description:product.product_product_1_product_template
 msgid "Example of products to invoice based on delivery."
-msgstr ""
+msgstr "Eksempler på produkter å fakturere basert på leveranse."
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item_name
@@ -1072,7 +1080,7 @@ msgstr "Eksplisitt regelnavn for denne prislistelinjen."
 #: model:product.product,name:product.service_cost_01
 #: model:product.template,name:product.service_cost_01_product_template
 msgid "External Audit"
-msgstr ""
+msgstr "Ekstern revisjon"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_6
@@ -1217,6 +1225,10 @@ msgid ""
 "Depth:  5.4 mm\n"
 "Weight: 31 grams"
 msgstr ""
+"Høyde: 76,5 mm\n"
+"Bredde:  39,6 mm\n"
+"Dybde:  5,4 mm\n"
+"Vekt: 31 gram"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
@@ -1375,7 +1387,7 @@ msgstr "Intern Referanse"
 #: model:ir.model.fields,help:product.field_product_product_barcode
 #: model:ir.model.fields,help:product.field_product_template_barcode
 msgid "International Article Number used for product identification."
-msgstr ""
+msgstr "Internasjonalt artikkelnummer brukt til produktidentifisering"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_7
@@ -3085,7 +3097,7 @@ msgstr ""
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_view
 msgid "e.g. USD Retailers"
-msgstr ""
+msgstr "for eksempel Forhandlere i USD"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_uom_form_view
@@ -3100,17 +3112,17 @@ msgstr ""
 #. module: product
 #: model:product.uom,name:product.product_uom_floz
 msgid "fl oz"
-msgstr ""
+msgstr "fl oz"
 
 #. module: product
 #: model:product.uom,name:product.product_uom_foot
 msgid "foot(ft)"
-msgstr ""
+msgstr "fot (ft)"
 
 #. module: product
 #: model:product.uom,name:product.product_uom_gal
 msgid "gal(s)"
-msgstr ""
+msgstr "gal(s)"
 
 #. module: product
 #: model:product.product,name:product.product_product_8
@@ -3229,7 +3241,7 @@ msgstr ""
 #. module: product
 #: model:ir.model,name:product.model_report_product_report_pricelist
 msgid "report.product.report_pricelist"
-msgstr ""
+msgstr "report.product.report_pricelist"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.view_partner_property_form

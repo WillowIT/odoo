@@ -509,7 +509,7 @@ class Partner(models.Model, FormatAddress):
         result = True
         # To write in SUPERUSER on field is_company and avoid access rights problems.
         if 'is_company' in vals and self.user_has_groups('base.group_partner_manager') and not self.env.uid == SUPERUSER_ID:
-            result = super(Partner, self).sudo().write({'is_company': vals.get('is_company')})
+            result = super(Partner, self.sudo()).write({'is_company': vals.get('is_company')})
             del vals['is_company']
         result = result and super(Partner, self).write(vals)
         for partner in self:
@@ -700,7 +700,7 @@ class Partner(models.Model, FormatAddress):
 
     def _get_gravatar_image(self, email):
         gravatar_image = False
-        email_hash = hashlib.md5(email.lower()).hexdigest()
+        email_hash = hashlib.md5(email.lower().encode('utf-8')).hexdigest()
         url = "https://www.gravatar.com/avatar/" + email_hash
         try:
             image_content = urllib2.urlopen(url + "?d=404&s=128", timeout=5).read()
