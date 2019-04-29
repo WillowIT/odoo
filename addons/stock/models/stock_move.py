@@ -392,7 +392,7 @@ class StockMove(models.Model):
         receipt_moves_to_reassign = self.env['stock.move']
         if 'product_uom_qty' in vals:
             for move in self.filtered(lambda m: m.state not in ('done', 'draft') and m.picking_id):
-               if vals['product_uom_qty'] != move.product_uom_qty:
+                if vals['product_uom_qty'] != move.product_uom_qty:
                     self.env['stock.move.line']._log_message(move.picking_id, move, 'stock.track_move_template', vals)
             if self.env.context.get('do_not_unreserve') is None:
 
