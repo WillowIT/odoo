@@ -3,21 +3,21 @@
 # * sale
 # 
 # Translators:
-# fishfurbanter <fishfurbanter@gmail.com>, 2016
+# Fishfur A Banter <fishfurbanter@gmail.com>, 2016
 # yizhaq agronov <yizhaq@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-22 13:44+0000\n"
-"PO-Revision-Date: 2017-08-11 20:39+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2019-08-20 12:42+0000\n"
+"Last-Translator: Amit Spilman <amit@laylinetech.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/odoo/odoo-9/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: he\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
 #. module: sale
 #: model:mail.template,body_html:sale.email_template_edi_sale
@@ -535,7 +535,7 @@ msgstr "השם המוצג"
 #. module: sale
 #: model:res.groups,name:sale.group_display_incoterm
 msgid "Display incoterms on Sales Order and related invoices"
-msgstr ""
+msgstr "הצגת את תנאי סחר בהזמנת ובחשבוניות קשורות"
 
 #. module: sale
 #: selection:sale.config.settings,module_sale_margin:0
@@ -625,12 +625,12 @@ msgstr "עוקבים"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "עוקבים (ערוצים)"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "עוקבים (שותפים)"
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.action_account_invoice_report_salesteam
@@ -677,7 +677,7 @@ msgstr "אם מסומן אז הודעה חדשה דורשת התייחסותכם
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "אם סומן, הודעות חדשות דורשות את תשומת הלב שלך."
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv_deposit_account_id
@@ -687,7 +687,7 @@ msgstr "חשבון הכנסות"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_group_display_incoterm
 msgid "Incoterms"
-msgstr ""
+msgstr "מונחי סחר בינלאומיים "
 
 #. module: sale
 #: model:ir.model,name:sale.model_account_invoice
@@ -797,7 +797,7 @@ msgstr "הפך לחשבונית"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Invoiced Quantity"
-msgstr ""
+msgstr "כמות שחויבה"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_crm_team_invoiced
@@ -868,7 +868,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "האם עוקב"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_last_post
@@ -1087,7 +1087,7 @@ msgstr "הכמויות שהוזמנו"
 #: model:ir.actions.act_window,name:sale.action_orders_upselling
 #: model:ir.ui.menu,name:sale.menu_sale_order_upselling
 msgid "Orders to Upsell"
-msgstr ""
+msgstr "הזמנות למכירה"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
@@ -1528,7 +1528,7 @@ msgstr "רצף"
 #: code:addons/sale/static/src/js/sale.js:19
 #, python-format
 msgid "Set an invoicing target: "
-msgstr ""
+msgstr "הגדר יעד לחשבונית:"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
@@ -1782,7 +1782,7 @@ msgstr "הודעות שלא נקראו"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "מונה הודעות שלא נקראו"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_amount_untaxed
@@ -1830,7 +1830,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "היסטורית התקשרויות מהאתר"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv_advance_payment_method

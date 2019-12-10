@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-29 10:27+0000\n"
-"PO-Revision-Date: 2016-11-28 18:50+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2019-05-24 17:39+0000\n"
+"Last-Translator: trendspotter <j.podhorecky@volny.cz>\n"
 "Language-Team: Czech (http://www.transifex.com/odoo/odoo-9/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: cs\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #. module: fleet
 #: code:addons/fleet/fleet.py:373
@@ -32,12 +32,12 @@ msgstr "%s smluv potřebuje obnovit a/nebo uzavřít!"
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_form
 msgid "<span>g/km</span>"
-msgstr ""
+msgstr "<span>g/km</span>"
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_form
 msgid "<span>kW</span>"
-msgstr ""
+msgstr "<span>kW</span>"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_1
@@ -599,7 +599,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_service_types_act
 msgid "Each service can used in contracts, as a standalone service or both."
-msgstr ""
+msgstr "Každá služba může být použita ve smlouvách, jako samostatná služba nebo obojí."
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_search
@@ -666,12 +666,12 @@ msgstr "Sledující"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "Sledující (Kanály)"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Sledující (Partneři)"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_cost_cost_type
@@ -767,7 +767,7 @@ msgstr "Má upozornění"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_contract_renewal_overdue
 msgid "Has Contracts Overdue"
-msgstr ""
+msgstr "Má opožděné smlouvy "
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_contract_renewal_due_soon
@@ -854,7 +854,7 @@ msgstr "Pokud je zaškrtnuto, nové zprávy vyžadují vaši pozornost."
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Pokud je zaškrtnuto, nové zprávy vyžadují vaši pozornost."
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_29
@@ -923,7 +923,7 @@ msgstr "Značka faktury"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "je Sledující"
 
 #. module: fleet
 #: selection:fleet.vehicle,odometer_unit:0
@@ -1048,7 +1048,7 @@ msgstr "Logo (malé)"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand_name
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_model_search
 msgid "Make"
-msgstr ""
+msgstr "Vytvořit"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_brand_id
@@ -1081,7 +1081,7 @@ msgstr "Ruční"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand_image_medium
 msgid "Medium-sized image"
-msgstr ""
+msgstr "Středně velký obrázek"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_brand_image_medium
@@ -1123,7 +1123,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_model_brand_act
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_model_brand_menu
 msgid "Model make of Vehicle"
-msgstr ""
+msgstr "Model vozidla"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_name
@@ -1201,7 +1201,7 @@ msgstr "Poznámky"
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Počet akcí"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_doors
@@ -1211,7 +1211,7 @@ msgstr "Počet dveří vozidla"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "Počet zpráv, které vyžadují akci"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_seats
@@ -1221,7 +1221,7 @@ msgstr "Počet sedadel ve vozidle"
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_message_unread_counter
 msgid "Number of unread messages"
-msgstr ""
+msgstr "Počet nepřečtených zpráv"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_odometer_id
@@ -1573,7 +1573,7 @@ msgstr "Nastavit smlouvu na \"probíhá\""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand_image_small
 msgid "Small-sized image"
-msgstr ""
+msgstr "Malý obrázek"
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_model_brand_image_small
@@ -1581,7 +1581,7 @@ msgid ""
 "Small-sized logo of the brand. It is automatically resized as a 64x64px "
 "image, with aspect ratio preserved. Use this field anywhere a small image is"
 " required."
-msgstr ""
+msgstr "Malé logo značky. Velikost obrazu se automaticky změní na 64x64px s zachovaným poměrem stran. Toto pole použijte kdekoliv je vyžadován malý obraz."
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_6
@@ -1630,7 +1630,7 @@ msgstr "Letní pneumatiky"
 #. module: fleet
 #: sql_constraint:fleet.vehicle.tag:0
 msgid "Tag name already exists !"
-msgstr ""
+msgstr "Název značky již existuje!"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_ids
@@ -1917,7 +1917,7 @@ msgstr "Stavy tachometrů"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_vendor_id
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_vendor_id
 msgid "Vendor"
-msgstr ""
+msgstr "Prodejce"
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_vendors
@@ -1995,7 +1995,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_model_act
 msgid "You can define several models (e.g. A3, A4) for each make (Audi)."
-msgstr ""
+msgstr "Pro každou značku (Audi) můžete definovat několik modelů (např. A3, A4)."
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_act
@@ -2019,17 +2019,17 @@ msgstr "a"
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_form
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_model_form
 msgid "e.g. Model S"
-msgstr ""
+msgstr "např. Model S"
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_form
 msgid "e.g. PAE 326"
-msgstr ""
+msgstr "např.  PAE 326"
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_model_form
 msgid "e.g. Tesla"
-msgstr ""
+msgstr "např. Tesla"
 
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_state

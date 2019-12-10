@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
-"PO-Revision-Date: 2015-10-26 16:26+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2019-08-13 12:05+0000\n"
+"Last-Translator: trendspotter <j.podhorecky@volny.cz>\n"
 "Language-Team: Czech (http://www.transifex.com/odoo/odoo-9/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: cs\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_rating_access_token
@@ -31,7 +31,7 @@ msgstr ""
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_rating_partner_id
 msgid "Author of the rating"
-msgstr ""
+msgstr "Autor hodnocení"
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_create_uid
@@ -63,12 +63,12 @@ msgstr "Zobrazovaný název"
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_res_id
 msgid "Document ID"
-msgstr ""
+msgstr "ID dokumentu"
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_res_model
 msgid "Document Model"
-msgstr ""
+msgstr "Model dokumentu"
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_feedback
@@ -83,35 +83,35 @@ msgstr "Seskupit podle"
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.view_rating_rating_search
 msgid "Happy"
-msgstr ""
+msgstr "V pohodě"
 
 #. module: rating
 #. openerp-web
 #: code:addons/rating/static/src/js/rating_common.js:26
 #, python-format
 msgid "I don't like it"
-msgstr ""
+msgstr "Nelíbí se mi"
 
 #. module: rating
 #. openerp-web
 #: code:addons/rating/static/src/js/rating_common.js:25
 #, python-format
 msgid "I hate it"
-msgstr ""
+msgstr "Vadí mi to."
 
 #. module: rating
 #. openerp-web
 #: code:addons/rating/static/src/js/rating_common.js:28
 #, python-format
 msgid "I like it"
-msgstr ""
+msgstr "líbí se mi to"
 
 #. module: rating
 #. openerp-web
 #: code:addons/rating/static/src/js/rating_common.js:29
 #, python-format
 msgid "I love it"
-msgstr ""
+msgstr "Líbí se mi"
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_mixin_id
@@ -134,7 +134,7 @@ msgstr ""
 #: code:addons/rating/static/src/js/rating_common.js:27
 #, python-format
 msgid "It's okay"
-msgstr ""
+msgstr "To je v pořádku"
 
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_mixin___last_update
@@ -155,7 +155,7 @@ msgstr "Naposled upraveno"
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_message_id
 msgid "Linked message"
-msgstr ""
+msgstr "Propojená zpráva"
 
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_rating_res_model
@@ -189,7 +189,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:rating.field_rating_rating_rating
 #: model:ir.ui.view,arch_db:rating.view_rating_rating_search
 msgid "Rating"
-msgstr ""
+msgstr "Hodnocení"
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.view_rating_rating_graph
@@ -215,12 +215,12 @@ msgstr ""
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.view_rating_rating_search
 msgid "Ratings"
-msgstr ""
+msgstr "Hodnocení"
 
 #. module: rating
 #: model:ir.model.fields,help:rating.field_rating_rating_feedback
 msgid "Reason of the rating"
-msgstr ""
+msgstr "Důvod hodnocení"
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.view_rating_rating_search
@@ -240,7 +240,7 @@ msgstr "Odpovědný"
 #. module: rating
 #: model:ir.model.fields,field_description:rating.field_rating_rating_access_token
 msgid "Security Token"
-msgstr ""
+msgstr "Bezpečnostní token"
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.rating_external_page_view
@@ -260,7 +260,7 @@ msgstr ""
 #. module: rating
 #: model:ir.actions.act_window,help:rating.action_view_rating
 msgid "There is no rating for this object at the moment."
-msgstr ""
+msgstr "Momentálně není žádné hodnocení pro tento objekt."
 
 #. module: rating
 #: model:ir.ui.view,arch_db:rating.view_rating_rating_search

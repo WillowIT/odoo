@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-22 13:16+0000\n"
-"PO-Revision-Date: 2017-12-06 18:38+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2019-08-19 12:48+0000\n"
+"Last-Translator: Amit Spilman <amit@laylinetech.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/odoo/odoo-9/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: he\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
 #. module: mail
 #: model:mail.template,body_html:mail.mail_template_data_notification_email_default
@@ -330,7 +330,7 @@ msgstr "הוסף"
 #: code:addons/mail/static/src/xml/chatter.xml:144
 #, python-format
 msgid "Add Channels"
-msgstr ""
+msgstr "הוסף ערוצים"
 
 #. module: mail
 #. openerp-web
@@ -344,7 +344,7 @@ msgstr "הוסף עוקבים"
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_user_signature
 #: model:ir.model.fields,field_description:mail.field_mail_template_user_signature
 msgid "Add Signature"
-msgstr ""
+msgstr "הוסף חתימה"
 
 #. module: mail
 #. openerp-web
@@ -458,7 +458,7 @@ msgstr "אנונימי"
 msgid ""
 "Answers do not go in the original document discussion thread. This has an "
 "impact on the generated message-id."
-msgstr ""
+msgstr "צ'אט"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_model_id
@@ -805,7 +805,7 @@ msgstr "מצב הכתיבה"
 #: code:addons/mail/static/src/xml/thread.xml:24
 #, python-format
 msgid "Congratulations, your inbox is empty"
-msgstr ""
+msgstr "מזל טוב, תיבת הדואר הנכנס שלך ריקה"
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.action_contacts
@@ -984,12 +984,12 @@ msgstr ""
 #: code:addons/mail/static/src/xml/client_action.xml:42
 #, python-format
 msgid "Direct Messages"
-msgstr ""
+msgstr "הודעות ישירות"
 
 #. module: mail
 #: model:ir.ui.menu,name:mail.mail_channel_menu_root_chat
 msgid "Discuss"
-msgstr ""
+msgstr "לדון"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_channel
@@ -1223,7 +1223,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_mail_starred_partner_ids
 #: model:ir.model.fields,field_description:mail.field_mail_message_starred_partner_ids
 msgid "Favorited By"
-msgstr ""
+msgstr "מועדף על ידי"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_model_object_field
@@ -1287,7 +1287,7 @@ msgstr "עוקבים"
 #: model:ir.model.fields,field_description:mail.field_res_partner_message_channel_ids
 #: model:ir.model.fields,field_description:mail.field_res_users_message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "עוקבים (ערוצים)"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_message_partner_ids
@@ -1295,7 +1295,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_res_partner_message_partner_ids
 #: model:ir.model.fields,field_description:mail.field_res_users_message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "עוקבים (שותפים)"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_subscription_form
@@ -1344,7 +1344,7 @@ msgstr "קבץ לפי"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_email_template_search
 msgid "Group by..."
-msgstr ""
+msgstr "קבץ לפי..."
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_channel_view_tree
@@ -1427,7 +1427,7 @@ msgstr "אם מסומן אז הודעה חדשה דורשת התייחסותכם
 #: model:ir.model.fields,help:mail.field_res_partner_message_needaction
 #: model:ir.model.fields,help:mail.field_res_users_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "אם סומן, הודעות חדשות דורשות את תשומת הלב שלך."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_wizard_invite_send_mail
@@ -1464,7 +1464,7 @@ msgstr ""
 #: code:addons/mail/models/mail_alias.py:141
 #, python-format
 msgid "Inactive Alias"
-msgstr ""
+msgstr "כינוי לא פעיל"
 
 #. module: mail
 #. openerp-web
@@ -1562,7 +1562,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_res_partner_message_is_follower
 #: model:ir.model.fields,field_description:mail.field_res_users_message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "האם עוקב"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail_notification
@@ -1704,14 +1704,14 @@ msgstr ""
 #: code:addons/mail/static/src/js/chatter.js:443
 #, python-format
 msgid "Log"
-msgstr ""
+msgstr "התחבר"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/chatter.xml:75
 #, python-format
 msgid "Log a note. Followers will not be notified."
-msgstr ""
+msgstr "רשום הערה. עוקבים לא יקבלו הודעה."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_is_log
@@ -1748,7 +1748,7 @@ msgstr "שליחת דוא\"ל נכשלה"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_tracking_value
 msgid "Mail Tracking Value"
-msgstr ""
+msgstr "מספר מעקב דואר"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail_notification
@@ -1765,14 +1765,14 @@ msgstr ""
 #: code:addons/mail/static/src/xml/client_action.xml:125
 #, python-format
 msgid "Mark all as read"
-msgstr ""
+msgstr "סמן הכל כנקרא"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:125
 #, python-format
 msgid "Mark all read"
-msgstr ""
+msgstr "סמן הכל כנקרא"
 
 #. module: mail
 #. openerp-web
@@ -1787,7 +1787,7 @@ msgstr ""
 #: code:addons/mail/static/src/xml/thread.xml:102
 #, python-format
 msgid "Mark as Todo"
-msgstr ""
+msgstr "סמן כנדרש לביצוע  "
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_image_medium
@@ -1805,7 +1805,7 @@ msgstr ""
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_channel_view_form
 msgid "Members"
-msgstr ""
+msgstr "מנויים"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_channel_group_ids
@@ -1985,7 +1985,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_message_needaction
 #: model:ir.ui.view,arch_db:mail.view_message_search
 msgid "Need Action"
-msgstr ""
+msgstr "נדרשת פעולה"
 
 #. module: mail
 #: selection:res.partner,notify_email:0
@@ -2045,7 +2045,7 @@ msgstr ""
 #: code:addons/mail/static/src/xml/thread.xml:25
 #, python-format
 msgid "New messages appear here."
-msgstr ""
+msgstr "הודעות חדשות מופיעות כאן."
 
 #. module: mail
 #. openerp-web
@@ -2087,7 +2087,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_mail_no_auto_thread
 #: model:ir.model.fields,field_description:mail.field_mail_message_no_auto_thread
 msgid "No threading for answers"
-msgstr ""
+msgstr "אין שרשור לתשובות"
 
 #. module: mail
 #: model:mail.message.subtype,name:mail.mt_note
@@ -2479,7 +2479,7 @@ msgstr "פרטיות"
 #: code:addons/mail/static/src/xml/client_action.xml:44
 #, python-format
 msgid "Private Channels"
-msgstr ""
+msgstr "ערוצים פרטיים"
 
 #. module: mail
 #: code:addons/mail/wizard/mail_compose_message.py:176
@@ -2552,7 +2552,7 @@ msgstr "שותף מקושר"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_subtype_relation_field
 msgid "Relation field"
-msgstr ""
+msgstr "שדה הקשר"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_template_form
@@ -2682,7 +2682,7 @@ msgstr "שלח"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_wizard_invite_send_mail
 msgid "Send Email"
-msgstr ""
+msgstr "שלח אימייל"
 
 #. module: mail
 #: code:addons/mail/models/mail_template.py:237
@@ -2713,7 +2713,7 @@ msgstr "שלח דואר אלקטרוני"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_email_send
 msgid "Send messages by email"
-msgstr ""
+msgstr "לשלוח הודעה בדוא\"ל"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_email_from
@@ -2798,7 +2798,7 @@ msgid ""
 "Small-sized image of this contact. It is automatically resized as a 64x64px "
 "image, with aspect ratio preserved. Use this field anywhere a small image is"
 " required."
-msgstr ""
+msgstr "תמונה בגודל קטן של איש קשר זה. הוא משתנה באופן אוטומטי כתמונה 64x64px, עם יחס היבט נשמר. השתמש בשדה זה בכל מקום נדרש תמונה קטנה."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_image_small
@@ -3087,14 +3087,14 @@ msgstr ""
 #: model:ir.actions.act_window,name:mail.action_view_mail_tracking_value
 #: model:ir.ui.menu,name:mail.menu_mail_tracking_value
 msgid "Tracking Values"
-msgstr ""
+msgstr "מספר מעקב"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_tracking_value_ids
 #: model:ir.model.fields,field_description:mail.field_mail_mail_tracking_value_ids
 #: model:ir.model.fields,field_description:mail.field_mail_message_tracking_value_ids
 msgid "Tracking values"
-msgstr ""
+msgstr "מספר מעקב"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_message_type
@@ -3152,7 +3152,7 @@ msgstr "הודעות שלא נקראו"
 #: model:ir.model.fields,field_description:mail.field_res_partner_message_unread_counter
 #: model:ir.model.fields,field_description:mail.field_res_users_message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "מונה הודעות שלא נקראו"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_message_search
@@ -3282,7 +3282,7 @@ msgstr ""
 #: code:addons/mail/static/src/xml/composer.xml:7
 #, python-format
 msgid "Write something..."
-msgstr ""
+msgstr "כתוב משהו..."
 
 #. module: mail
 #. openerp-web
@@ -3384,7 +3384,7 @@ msgstr "על ידי"
 #: code:addons/mail/models/mail_thread.py:312
 #, python-format
 msgid "document"
-msgstr ""
+msgstr "מסמך"
 
 #. module: mail
 #. openerp-web
@@ -3437,7 +3437,7 @@ msgstr ""
 #: code:addons/mail/static/src/js/thread.js:142
 #, python-format
 msgid "now"
-msgstr ""
+msgstr "עכשיו"
 
 #. module: mail
 #. openerp-web

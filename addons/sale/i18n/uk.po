@@ -3,6 +3,7 @@
 # * sale
 # 
 # Translators:
+# Alina Lisnenko <alinasemeniuk1@gmail.com>, 2019
 # Bohdan Lisnenko, 2015-2016
 # Bohdan Lisnenko, 2016-2017
 msgid ""
@@ -10,14 +11,14 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-22 13:44+0000\n"
-"PO-Revision-Date: 2017-11-22 16:48+0000\n"
-"Last-Translator: Bohdan Lisnenko\n"
+"PO-Revision-Date: 2019-05-16 14:00+0000\n"
+"Last-Translator: Alina Lisnenko <alinasemeniuk1@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/odoo/odoo-9/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 #. module: sale
 #: model:mail.template,body_html:sale.email_template_edi_sale
@@ -220,7 +221,7 @@ msgstr "Дозволити редагувати замовлення на про
 msgid ""
 "Allows to manage different prices based on rules per category of customers.\n"
 "                    Example: 10% for retailers, promotion of 5 EUR on this product, etc."
-msgstr ""
+msgstr "Дозволяє управляти різними цінами на основі правил для кожної категорії клієнтів.\n                     Приклад: 10% для роздрібних продавців, просування 5 євро на цей продукт тощо."
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_config_settings_group_uom
@@ -308,7 +309,7 @@ msgstr "Натисніть, щоб встановити ціль команди"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_report_commercial_partner_id
 msgid "Commercial Entity"
-msgstr "Перспективний"
+msgstr "Юридична особа"
 
 #. module: sale
 #: model:ir.model,name:sale.model_res_company

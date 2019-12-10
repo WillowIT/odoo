@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-06 07:28+0000\n"
-"PO-Revision-Date: 2018-03-22 09:39+0000\n"
-"Last-Translator: Naomi Hidalgo <naomihid96@gmail.com>\n"
+"PO-Revision-Date: 2019-08-12 15:08+0000\n"
+"Last-Translator: Victor Laskurain <blaskurain@binovo.es>\n"
 "Language-Team: Basque (http://www.transifex.com/odoo/odoo-9/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -215,7 +215,7 @@ msgstr "Aplikatu"
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_change_production_qty_wizard
 msgid "Approve"
-msgstr ""
+msgstr "Onartu"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_product_product_produce_delay
@@ -346,12 +346,12 @@ msgstr ""
 #. module: mrp
 #: selection:mrp.product.produce,tracking:0
 msgid "By Lots"
-msgstr ""
+msgstr "Loteen bidez"
 
 #. module: mrp
 #: selection:mrp.product.produce,tracking:0
 msgid "By Unique Serial Number"
-msgstr ""
+msgstr "Serie zenbaki bakar baten bidez"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_config_settings_module_mrp_byproduct
@@ -713,7 +713,7 @@ msgstr "Done"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_time_efficiency
 msgid "Efficiency Factor"
-msgstr ""
+msgstr "Eraginkortasun faktorea "
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_date_finished
@@ -723,7 +723,7 @@ msgstr "Amaiera Data"
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Extra Information"
-msgstr ""
+msgstr "Informazio gehigarria "
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter_costs_cycle_account_id
@@ -913,7 +913,7 @@ msgstr "Ez-aktibo"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_position
 msgid "Internal Reference"
-msgstr ""
+msgstr "Barne erreferentzia "
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_message_is_follower
@@ -1007,7 +1007,7 @@ msgstr "Last Updated on"
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Late"
-msgstr ""
+msgstr "Berandu "
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move_consume_location_id
@@ -1022,14 +1022,14 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production_location_dest_id
 msgid "Location where the system will stock the finished products."
-msgstr ""
+msgstr "Sistemak bukatutako produktuak utziko dituen kokaleakua"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_line_lot_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_lot_id
 #: model:ir.model.fields,field_description:mrp.field_stock_move_consume_restrict_lot_id
 msgid "Lot"
-msgstr ""
+msgstr "Lotea"
 
 #. module: mrp
 #: model:res.groups,name:mrp.group_mrp_routings
@@ -1223,7 +1223,7 @@ msgstr ""
 #. module: mrp
 #: selection:mrp.product.produce,tracking:0
 msgid "No Tracking"
-msgstr ""
+msgstr "Jarraipenik ez"
 
 #. module: mrp
 #: selection:mrp.config.settings,module_mrp_byproduct:0
@@ -1248,7 +1248,7 @@ msgstr "Arrunta"
 #. module: mrp
 #: selection:mrp.production,priority:0
 msgid "Not urgent"
-msgstr ""
+msgstr "Ez premiazkoa"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_property_composition
@@ -1380,7 +1380,7 @@ msgstr "Procurement"
 #. module: mrp
 #: model:ir.model,name:mrp.model_procurement_rule
 msgid "Procurement Rule"
-msgstr ""
+msgstr "Hornikuntza Araua "
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.act_mrp_product_produce
@@ -1478,7 +1478,7 @@ msgstr "Produkzioa"
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_location_id
 #: model:ir.ui.view,arch_db:mrp.mrp_routing_search_view
 msgid "Production Location"
-msgstr ""
+msgstr "Ekoizpen kokalekua"
 
 #. module: mrp
 #: model:ir.actions.report.xml,name:mrp.action_report_production_order
@@ -1692,7 +1692,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_resource_type
 msgid "Resource Type"
-msgstr ""
+msgstr "Baliabide mota "
 
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_pm_resources_config
@@ -2000,7 +2000,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_cost
 msgid "Total Cost"
-msgstr ""
+msgstr "Kostu totala"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_bom_cost
@@ -2017,7 +2017,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_hour_total
 #: model:ir.ui.view,arch_db:mrp.mrp_production_tree_view
 msgid "Total Hours"
-msgstr ""
+msgstr "Ordu totalak"
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_tree_view
@@ -2069,7 +2069,7 @@ msgstr "Eguneratu"
 #. module: mrp
 #: selection:mrp.production,priority:0
 msgid "Urgent"
-msgstr ""
+msgstr "Premiazkoa"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_user_id
@@ -2116,12 +2116,12 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line_attribute_value_ids
 msgid "Variants"
-msgstr ""
+msgstr "Aldaerak"
 
 #. module: mrp
 #: selection:mrp.production,priority:0
 msgid "Very Urgent"
-msgstr ""
+msgstr "Oso premiazkoa"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_warehouse
@@ -2139,7 +2139,7 @@ msgstr "Kontuz"
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_website_message_ids
 #: model:ir.model.fields,field_description:mrp.field_mrp_production_workcenter_line_website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "Webgune mesuak "
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_bom_website_message_ids
@@ -2283,7 +2283,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_calendar_id
 #: model:ir.ui.menu,name:mrp.menu_view_resource_calendar_search_mrp
 msgid "Working Time"
-msgstr ""
+msgstr "Lan ordua "
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_config_settings_module_mrp_byproduct

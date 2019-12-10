@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-21 09:27+0000\n"
-"PO-Revision-Date: 2017-06-15 12:46+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2018-11-24 09:40+0000\n"
+"Last-Translator: Linas Versada <linaskrisiukenas@gmail.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/odoo/odoo-9/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: lt\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #. module: l10n_in_hr_payroll
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_payment_advice_report_nbr
@@ -181,7 +181,7 @@ msgstr ""
 #. module: l10n_in_hr_payroll
 #: model:ir.ui.view,arch_db:l10n_in_hr_payroll.hr_contract_form_in_inherit
 msgid "Allowance"
-msgstr ""
+msgstr "Išlaidos"
 
 #. module: l10n_in_hr_payroll
 #: model:ir.model.fields,help:l10n_in_hr_payroll.field_hr_contract_tds
@@ -235,7 +235,7 @@ msgstr ""
 #. module: l10n_in_hr_payroll
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_hr_payroll_advice_batch_id
 msgid "Batch"
-msgstr ""
+msgstr "Grupė"
 
 #. module: l10n_in_hr_payroll
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_hr_payroll_advice_line_bysal
@@ -407,7 +407,7 @@ msgstr "Gruodis"
 #. module: l10n_in_hr_payroll
 #: model:ir.ui.view,arch_db:l10n_in_hr_payroll.hr_contract_form_in_inherit
 msgid "Deduction"
-msgstr ""
+msgstr "Sumažinimas"
 
 #. module: l10n_in_hr_payroll
 #: model:ir.model.fields,help:l10n_in_hr_payroll.field_hr_contract_medical_insurance
@@ -422,7 +422,7 @@ msgstr "Aprašymas"
 #. module: l10n_in_hr_payroll
 #: model:ir.ui.view,arch_db:l10n_in_hr_payroll.report_payslipdetails
 msgid "Details by Salary Rule Category"
-msgstr ""
+msgstr "Duomenys pagal atlyginimo taisyklės kategoriją"
 
 #. module: l10n_in_hr_payroll
 #: model:ir.model.fields,field_description:l10n_in_hr_payroll.field_hr_payroll_advice_display_name
@@ -965,7 +965,7 @@ msgstr "Kreipinys"
 #: model:ir.ui.view,arch_db:l10n_in_hr_payroll.report_hrsalarybymonth
 #: model:ir.ui.view,arch_db:l10n_in_hr_payroll.report_hryearlysalary
 msgid "To"
-msgstr ""
+msgstr "iki"
 
 #. module: l10n_in_hr_payroll
 #: model:ir.ui.view,arch_db:l10n_in_hr_payroll.hr_payslip_run_search_inherit

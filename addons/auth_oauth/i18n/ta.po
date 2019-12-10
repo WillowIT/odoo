@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-22 13:16+0000\n"
-"PO-Revision-Date: 2016-09-23 09:14+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2019-03-25 07:21+0000\n"
+"Last-Translator: Alagappan Karthikeyan <me@karthik.sg>\n"
 "Language-Team: Tamil (http://www.transifex.com/odoo/odoo-9/language/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +33,7 @@ msgstr ""
 #: code:addons/auth_oauth/controllers/main.py:99
 #, python-format
 msgid "Access Denied"
-msgstr ""
+msgstr "அணுகல் மறுக்கப்பட்டது"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_property_account_payable_id
@@ -48,38 +48,38 @@ msgstr ""
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_base_config_settings_auth_oauth_google_enabled
 msgid "Allow users to sign in with Google"
-msgstr ""
+msgstr "Google உடன் உள்நுழைய பயனர்களை அனுமதிக்கவும்"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider_enabled
 msgid "Allowed"
-msgstr ""
+msgstr "அனுமதிக்கப்பட்ட"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider_auth_endpoint
 msgid "Authentication URL"
-msgstr ""
+msgstr "அங்கீகரிப்பு URL"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_bank_account_count
 msgid "Bank"
-msgstr ""
+msgstr "வங்கி"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider_body
 msgid "Body"
-msgstr ""
+msgstr "உடல்"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider_css_class
 msgid "CSS class"
-msgstr ""
+msgstr "CSS வர்க்கம்"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider_client_id
 #: model:ir.model.fields,field_description:auth_oauth.field_base_config_settings_auth_oauth_google_client_id
 msgid "Client ID"
-msgstr ""
+msgstr "கிளையன்ட் ஐடி"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_ref_company_ids
@@ -115,7 +115,7 @@ msgstr ""
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider_data_endpoint
 msgid "Data URL"
-msgstr ""
+msgstr "தரவு URL"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider_display_name
@@ -125,7 +125,7 @@ msgstr "காட்சி பெயர்"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_property_account_position_id
 msgid "Fiscal Position"
-msgstr ""
+msgstr "நிதி நிலை"
 
 #. module: auth_oauth
 #: model:ir.ui.view,arch_db:auth_oauth.view_general_configuration
@@ -145,13 +145,13 @@ msgstr "ID"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_invoice_ids
 msgid "Invoices"
-msgstr ""
+msgstr "பற்றுச்சீட்டுகள்"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_issued_total
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_journal_item_count
 msgid "Journal Items"
-msgstr ""
+msgstr "பத்திரிகை பொருட்கள்"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider___last_update
@@ -174,7 +174,7 @@ msgid ""
 "Last time the invoices & payments matching was performed for this partner. "
 "It is set either if there's not at least an unreconciled debit and an "
 "unreconciled credit or if you click the \"Done\" button."
-msgstr ""
+msgstr "கடைசியாக இந்த பங்குதாரர்களுக்காக பொருள்களும் பணம் செலுத்தும் பொருத்தங்களும் செய்யப்பட்டன. குறைந்தபட்சம் ஒரு ஒப்பந்தம் செய்யப்படாத டெபிட் மற்றும் ஒரு அச்சமற்ற கடன் அல்லது நீங்கள் \"முடிந்தது\" பொத்தானைக் கிளிக் செய்தால் அது அமைக்கப்பட்டிருக்கும்."
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_last_time_entries_checked
@@ -184,42 +184,42 @@ msgstr ""
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_oauth_access_token
 msgid "OAuth Access Token"
-msgstr ""
+msgstr "OAuth அணுகல் டோக்கன்"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_oauth_provider_id
 msgid "OAuth Provider"
-msgstr ""
+msgstr "OAuth வழங்குநர்"
 
 #. module: auth_oauth
 #: model:ir.ui.menu,name:auth_oauth.menu_oauth_providers
 msgid "OAuth Providers"
-msgstr ""
+msgstr "OAuth வழங்குநர்கள்"
 
 #. module: auth_oauth
 #: sql_constraint:res.users:0
 msgid "OAuth UID must be unique per provider"
-msgstr ""
+msgstr "OAuth UID வழங்குநருக்கு தனிப்பட்டதாக இருக்க வேண்டும்"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_oauth_uid
 msgid "OAuth User ID"
-msgstr ""
+msgstr "OAuth பயனர் ID"
 
 #. module: auth_oauth
 #: model:ir.model,name:auth_oauth.model_auth_oauth_provider
 msgid "OAuth2 provider"
-msgstr ""
+msgstr "OAuth2 வழங்குநர்"
 
 #. module: auth_oauth
 #: model:ir.ui.view,arch_db:auth_oauth.view_users_form
 msgid "Oauth"
-msgstr ""
+msgstr "கொண்டு Oauth"
 
 #. module: auth_oauth
 #: model:ir.model.fields,help:auth_oauth.field_res_users_oauth_uid
 msgid "Oauth Provider user_id"
-msgstr ""
+msgstr "Oauth வழங்குநர் user_id"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_debit_limit
@@ -229,23 +229,23 @@ msgstr ""
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider_name
 msgid "Provider name"
-msgstr ""
+msgstr "Oauth வழங்குநர் user_id"
 
 #. module: auth_oauth
 #: model:ir.actions.act_window,name:auth_oauth.action_oauth_provider
 msgid "Providers"
-msgstr ""
+msgstr "வழங்குனர்கள்"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider_scope
 msgid "Scope"
-msgstr ""
+msgstr "நோக்கம்"
 
 #. module: auth_oauth
 #: code:addons/auth_oauth/controllers/main.py:97
 #, python-format
 msgid "Sign up is not allowed on this database."
-msgstr ""
+msgstr "இந்த தரவுத்தளத்தில் பதிவு செய்ய அனுமதிக்கப்படவில்லை."
 
 #. module: auth_oauth
 #: model:ir.model.fields,help:auth_oauth.field_res_users_property_account_position_id
@@ -265,14 +265,14 @@ msgstr ""
 msgid ""
 "This account will be used instead of the default one as the payable account "
 "for the current partner"
-msgstr ""
+msgstr "நடப்பு பங்குதாரருக்கான செலுத்தத்தக்க கணக்கு என இயல்புநிலைக்கு பதிலாக இந்த கணக்கு பயன்படுத்தப்படும்"
 
 #. module: auth_oauth
 #: model:ir.model.fields,help:auth_oauth.field_res_users_property_account_receivable_id
 msgid ""
 "This account will be used instead of the default one as the receivable "
 "account for the current partner"
-msgstr ""
+msgstr "நடப்பு பங்காளிக்கான பெறத்தக்க கணக்கு என்பதால் இந்த கணக்கு இயல்புநிலைக்கு பதிலாகப் பயன்படுத்தப்படும். நடப்பு பங்குதாரருக்கு பெறக்கூடிய கணக்கு என இயல்புநிலைக்கு பதிலாக இந்த கணக்கு பயன்படுத்தப்படும்."
 
 #. module: auth_oauth
 #: model:ir.model.fields,help:auth_oauth.field_res_users_property_supplier_payment_term_id
@@ -334,7 +334,7 @@ msgstr ""
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider_validation_endpoint
 msgid "Validation URL"
-msgstr ""
+msgstr "சரிபார்ப்பு URL"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users_property_supplier_payment_term_id
@@ -348,13 +348,13 @@ msgid ""
 "You do not have access to this database or your invitation has expired. "
 "Please ask for an invitation and be sure to follow the link in your "
 "invitation email."
-msgstr ""
+msgstr "இந்த தரவுத்தளத்தில் உங்களுக்கு அணுகல் இல்லை அல்லது உங்கள் அழைப்பு காலாவதியானது. அழைப்பிதழ் கேட்கவும், உங்கள் அழைப்பிதழில் உள்ள இணைப்பை பின்பற்றவும்."
 
 #. module: auth_oauth
 #: model:ir.ui.view,arch_db:auth_oauth.view_oauth_provider_form
 #: model:ir.ui.view,arch_db:auth_oauth.view_oauth_provider_list
 msgid "arch"
-msgstr ""
+msgstr "பரம"
 
 #. module: auth_oauth
 #: model:ir.model,name:auth_oauth.model_base_config_settings
@@ -364,7 +364,7 @@ msgstr ""
 #. module: auth_oauth
 #: model:ir.ui.view,arch_db:auth_oauth.view_general_configuration
 msgid "e.g. 1234-xyz.apps.googleusercontent.com"
-msgstr ""
+msgstr "எ.கா. 1234-xyz.apps.googleusercontent.com"
 
 #. module: auth_oauth
 #: model:ir.model,name:auth_oauth.model_ir_config_parameter
@@ -374,4 +374,4 @@ msgstr ""
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider_sequence
 msgid "unknown"
-msgstr ""
+msgstr "தெரியாத"

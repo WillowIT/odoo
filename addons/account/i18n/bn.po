@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-22 13:16+0000\n"
-"PO-Revision-Date: 2017-03-29 08:40+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2019-08-14 20:14+0000\n"
+"Last-Translator: Khanstore <dmashraf@gmail.com>\n"
 "Language-Team: Bengali (http://www.transifex.com/odoo/odoo-9/language/bn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -112,7 +112,7 @@ msgstr ""
 #. module: account
 #: model:mail.template,subject:account.email_template_edi_invoice
 msgid "${object.company_id.name} Invoice (Ref ${object.number or 'n/a'})"
-msgstr ""
+msgstr "${কোম্পানী_আইডি.নাম} চালান (রেফারেন্স $ {বস্তু.সংখ্যা বা 'n / a'})"
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:321
@@ -124,7 +124,7 @@ msgstr ""
 #: code:addons/account/models/account.py:558
 #, python-format
 msgid "%s (Copy)"
-msgstr ""
+msgstr "%s(প্রতিলিপি)"
 
 #. module: account
 #: code:addons/account/models/account.py:152
@@ -132,7 +132,7 @@ msgstr ""
 #: code:addons/account/models/account.py:310
 #, python-format
 msgid "%s (copy)"
-msgstr ""
+msgstr "%s(প্রতিলিপি)"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.external_layout_footer
@@ -147,7 +147,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_form
 msgid "-> Reconcile"
-msgstr ""
+msgstr "->পুনর্মিলিত"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_move_line_form
@@ -163,17 +163,17 @@ msgstr ""
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term_15days
 msgid "15 Days"
-msgstr ""
+msgstr "15 দিন"
 
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term_net
 msgid "30 Net Days"
-msgstr ""
+msgstr "30 নেট দিন"
 
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term_advance
 msgid "30% Advance End of Following Month"
-msgstr ""
+msgstr "30% অগ্রিম পরবর্তী মাসের শেষে"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -345,17 +345,17 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>New Bill</span>"
-msgstr ""
+msgstr "<span>নতুন রসিদ</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>New Invoice</span>"
-msgstr ""
+msgstr "<span>নতুন চালান</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>New</span>"
-msgstr ""
+msgstr "<span>নতুন</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_agedpartnerbalance
@@ -365,7 +365,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>Operations</span>"
-msgstr ""
+msgstr "<span>কার্যাবলী</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -1213,7 +1213,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_tax_active
 #: model:ir.model.fields,field_description:account.field_account_tax_template_active
 msgid "Active"
-msgstr ""
+msgstr "সক্রিয়"
 
 #. module: account
 #. openerp-web
@@ -1458,10 +1458,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_cash_box_in_amount
 #: model:ir.model.fields,field_description:account.field_cash_box_out_amount
 #: model:ir.ui.view,arch_db:account.report_invoice_document
+#: model:ir.ui.view,arch_db:account.view_account_payment_tree
+#: model:ir.ui.view,arch_db:account.view_account_supplier_payment_tree
 #: model:ir.ui.view,arch_db:account.view_move_line_form
 #, python-format
 msgid "Amount"
 msgstr "আনয়ন করুন"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_analytic_line_analytic_amount_currency
+msgid "Amount Currency"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_residual
@@ -1485,6 +1492,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line_amount_currency
 #: model:ir.model.fields,field_description:account.field_account_move_line_amount_currency
 msgid "Amount currency"
+msgstr ""
+
+#. module: account
+#: model:ir.ui.view,arch_db:account.invoice_tree
+msgid "Amount due"
 msgstr ""
 
 #. module: account
@@ -1793,7 +1805,7 @@ msgstr ""
 #: model:ir.model,name:account.model_res_partner_bank
 #: model:ir.ui.menu,name:account.menu_action_account_bank_journal_form
 msgid "Bank Accounts"
-msgstr ""
+msgstr "ব্যাংক হিসাব"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_config_settings_bank_account_code_prefix
@@ -1908,7 +1920,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_invoice_tax_base
 #: model:ir.ui.view,arch_db:account.report_invoice_document
 msgid "Base"
-msgstr ""
+msgstr "ভিত্তি"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -2491,7 +2503,7 @@ msgstr ""
 #. module: account
 #: model:ir.model,name:account.model_res_company
 msgid "Companies"
-msgstr ""
+msgstr "কোম্পানিগুলি"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner_ref_company_ids
@@ -2589,7 +2601,7 @@ msgstr ""
 #: model:ir.ui.menu,name:account.menu_finance_configuration
 #: model:ir.ui.view,arch_db:account.view_account_config_settings
 msgid "Configuration"
-msgstr ""
+msgstr "রূপরেখা"
 
 #. module: account
 #: code:addons/account/models/account_payment.py:412
@@ -2845,7 +2857,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_validate_account_move_create_uid
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_create_uid
 msgid "Created by"
-msgstr ""
+msgstr "প্রস্তুতকারী"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_create_date
@@ -2902,7 +2914,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_validate_account_move_create_date
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_create_date
 msgid "Created on"
-msgstr ""
+msgstr "তৈরিকৃত"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_credit
@@ -3070,7 +3082,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.menu,name:account.menu_board_journal_1
 msgid "Dashboard"
-msgstr ""
+msgstr "ড্যাশবোর্ড"
 
 #. module: account
 #. openerp-web
@@ -3257,7 +3269,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account.view_account_type_form
 #, python-format
 msgid "Description"
-msgstr ""
+msgstr "বিবরণ"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment_term_note
@@ -3388,7 +3400,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_validate_account_move_display_name
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_display_name
 msgid "Display Name"
-msgstr ""
+msgstr "প্রদর্শন নাম"
 
 #. module: account
 #: selection:account.financial.report,display_detail:0
@@ -3742,7 +3754,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_config_settings
 msgid "Features"
-msgstr ""
+msgstr "বৈশিষ্ট্যগুলি"
 
 #. module: account
 #: selection:res.company,fiscalyear_last_month:0
@@ -3882,7 +3894,7 @@ msgstr ""
 #: selection:account.tax,amount_type:0
 #: selection:account.tax.template,amount_type:0
 msgid "Fixed"
-msgstr ""
+msgstr "স্থায়ী"
 
 #. module: account
 #: selection:account.payment.term.line,value:0
@@ -4115,7 +4127,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account.view_account_template_search
 #: model:ir.ui.view,arch_db:account.view_bank_statement_search
 msgid "Group By"
-msgstr ""
+msgstr "গ্রুপ দ্বারা"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_group_invoice_lines
@@ -4222,7 +4234,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_validate_account_move_id
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_id
 msgid "ID"
-msgstr ""
+msgstr "আইডি "
 
 #. module: account
 #: code:addons/account/models/chart_template.py:155
@@ -4741,6 +4753,11 @@ msgid "Invoices to validate"
 msgstr ""
 
 #. module: account
+#: model:ir.ui.menu,name:account.menu_finance
+msgid "Invoicing"
+msgstr ""
+
+#. module: account
 #: model:ir.ui.view,arch_db:account.view_account_config_settings
 msgid "Invoicing & Payments"
 msgstr ""
@@ -5081,7 +5098,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_validate_account_move___last_update
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts___last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "সর্বশেষ সংশোধিত"
 
 #. module: account
 #. openerp-web
@@ -5145,7 +5162,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_validate_account_move_write_uid
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "সর্বশেষ আপডেট করেছেন"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag_write_date
@@ -5202,7 +5219,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_validate_account_move_write_date
 #: model:ir.model.fields,field_description:account.field_wizard_multi_charts_accounts_write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "সর্বশেষ আপডেট হয়েছে"
 
 #. module: account
 #: selection:account.payment.term.line,option:0
@@ -5244,7 +5261,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_position_form
 msgid "Legal Notes..."
-msgstr ""
+msgstr "আইনী নোট"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_fiscal_position_note
@@ -5487,7 +5504,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_message_ids
 #: model:ir.model.fields,field_description:account.field_account_invoice_message_ids
 msgid "Messages"
-msgstr ""
+msgstr "বার্তা সমূহ"
 
 #. module: account
 #: selection:account.journal,type:0
@@ -5714,7 +5731,7 @@ msgstr ""
 #: selection:account.tax,type_tax_use:0
 #: selection:account.tax.template,type_tax_use:0
 msgid "None"
-msgstr ""
+msgstr "কিছুই না"
 
 #. module: account
 #: selection:account.financial.report,style_overwrite:0
@@ -5816,7 +5833,7 @@ msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "Odoo Accounting has many free extra-features:"
+msgid "Odoo Accounting has many extra-features:"
 msgstr ""
 
 #. module: account
@@ -6009,7 +6026,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_payment_term_line_option
 #: model:ir.ui.view,arch_db:account.view_account_config_settings
 msgid "Options"
-msgstr ""
+msgstr "বিকল্প সমূহ"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line_payment_id
@@ -6109,13 +6126,13 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account.report_overdue_document
 #: model:mail.message.subtype,name:account.mt_invoice_paid
 msgid "Paid"
-msgstr ""
+msgstr "পরিশোধ"
 
 #. module: account
 #: code:addons/account/models/account_payment.py:271
 #, python-format
 msgid "Paid Invoices"
-msgstr ""
+msgstr "পরিশোধিত চালান"
 
 #. module: account
 #. openerp-web
@@ -6132,7 +6149,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_financial_report_parent_id
 msgid "Parent"
-msgstr ""
+msgstr "শতকরা"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template_parent_id
@@ -7382,7 +7399,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_tax_sequence
 #: model:ir.model.fields,field_description:account.field_account_tax_template_sequence
 msgid "Sequence"
-msgstr ""
+msgstr "ক্রম"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_active
@@ -7413,7 +7430,7 @@ msgstr ""
 #: model:ir.ui.menu,name:account.menu_account_config
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Settings"
-msgstr ""
+msgstr "বিন্যাস"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_code
@@ -7842,7 +7859,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_config_settings_chart_template_id
 msgid "Template"
-msgstr ""
+msgstr "টেমপ্লেট"
 
 #. module: account
 #: model:ir.model,name:account.model_account_fiscal_position_account_template
@@ -8073,6 +8090,12 @@ msgid ""
 msgstr ""
 
 #. module: account
+#: code:addons/account/models/company.py:81
+#, python-format
+msgid "The lock date for advisors is irreversible and can't be removed."
+msgstr ""
+
+#. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_move_id
 msgid "The move of this entry line."
 msgstr ""
@@ -8088,6 +8111,13 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_name
 msgid "The name that will be used on account move lines"
+msgstr ""
+
+#. module: account
+#: code:addons/account/models/company.py:85
+#, python-format
+msgid ""
+"The new lock date for advisors must be set after the previous lock date."
 msgstr ""
 
 #. module: account
@@ -8184,6 +8214,35 @@ msgstr ""
 msgid ""
 "There are still unposted entries in the period you want to lock. You should "
 "either post or delete them."
+msgstr ""
+
+#. module: account
+#: code:addons/account/models/company.py:81
+#, python-format
+msgid "The lock date for advisors is irreversible and can't be removed."
+msgstr ""
+
+#. module: account
+#: code:addons/account/models/company.py:85
+#, python-format
+msgid ""
+"The new lock date for advisors must be set after the previous lock date."
+msgstr ""
+
+#. module: account
+#: code:addons/account/models/company.py:96
+#, python-format
+msgid ""
+"You cannot lock a period that is not finished yet. Please make sure that the"
+" lock date for advisors is not set after the last day of the previous month."
+msgstr ""
+
+#. module: account
+#: code:addons/account/models/company.py:107
+#, python-format
+msgid ""
+"You cannot define stricter conditions on advisors than on users. Please make"
+" sure that the lock date on advisor is set before the lock date for users."
 msgstr ""
 
 #. module: account
@@ -8521,7 +8580,12 @@ msgid ""
 msgstr ""
 
 #. module: account
-#: code:addons/account/models/account_move.py:776
+#: model:ir.ui.view,arch_db:account.invoice_supplier_tree
+msgid "To pay"
+msgstr ""
+
+#. module: account
+#: code:addons/account/models/account_move.py:895
 #, python-format
 msgid "To reconcile the entries company should be the same for all entries!"
 msgstr ""
@@ -8692,7 +8756,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_move_line_user_type_id
 #: model:ir.model.fields,field_description:account.field_account_payment_term_line_value
 msgid "Type"
-msgstr ""
+msgstr "ধরণ"
 
 #. module: account
 #: code:addons/account/models/chart_template.py:738
@@ -8813,7 +8877,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template_use_anglo_saxon
 msgid "Use Anglo-Saxon accounting"
-msgstr ""
+msgstr "এংলো-সেকসন একাউন্টিং পদ্ধতি ব্যবহার করুন"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_config_settings_module_account_sepa
@@ -9224,6 +9288,14 @@ msgstr ""
 msgid ""
 "You cannot cancel an invoice which is partially paid. You need to "
 "unreconcile related payment entries first."
+msgstr ""
+
+#. module: account
+#: code:addons/account/models/company.py:118
+#, python-format
+msgid ""
+"You cannot change the currency of the company since some journal items "
+"already exist"
 msgstr ""
 
 #. module: account
@@ -9653,7 +9725,7 @@ msgstr ""
 #: code:addons/account/static/src/xml/account_reconciliation.xml:212
 #, python-format
 msgid "seconds per transaction."
-msgstr ""
+msgstr "সেকেন্ড প্রতি ট্রানজেকশন"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner

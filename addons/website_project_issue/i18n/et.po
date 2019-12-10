@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:41+0000\n"
-"PO-Revision-Date: 2018-02-28 13:20+0000\n"
+"PO-Revision-Date: 2018-09-26 13:41+0000\n"
 "Last-Translator: Eneli Õigus <enelioigus@gmail.com>\n"
 "Language-Team: Estonian (http://www.transifex.com/odoo/odoo-9/language/et/)\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "<strong>Kuupäev:</strong>"
 #. module: website_project_issue
 #: model:ir.ui.view,arch_db:website_project_issue.issues_followup
 msgid "<strong>Message and communication history</strong>"
-msgstr ""
+msgstr "<strong>Message and communication history</strong>"
 
 #. module: website_project_issue
 #: model:ir.ui.view,arch_db:website_project_issue.issues_followup
@@ -56,7 +56,7 @@ msgstr "Kirjeldus"
 #: model:ir.ui.view,arch_db:website_project_issue.issues_followup
 #: model:ir.ui.view,arch_db:website_project_issue.portal_project_issue
 msgid "Issue"
-msgstr ""
+msgstr "Probleem"
 
 #. module: website_project_issue
 #: model:ir.ui.view,arch_db:website_project_issue.issues_followup

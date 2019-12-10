@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-22 13:44+0000\n"
-"PO-Revision-Date: 2016-09-22 13:46+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2019-03-25 07:21+0000\n"
+"Last-Translator: Alagappan Karthikeyan <me@karthik.sg>\n"
 "Language-Team: Tamil (http://www.transifex.com/odoo/odoo-9/language/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -178,7 +178,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "செயல் தேவை"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_group_sale_delivery_address
@@ -240,7 +240,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order_project_id
 #: model:ir.model.fields,field_description:sale.field_sale_report_analytic_account_id
 msgid "Analytic Account"
-msgstr ""
+msgstr "பகுப்பாய்வு கணக்கு"
 
 #. module: sale
 #: model:res.groups,name:sale.group_analytic_accounting
@@ -250,7 +250,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model,name:sale.model_account_analytic_line
 msgid "Analytic Line"
-msgstr ""
+msgstr "பகுப்பாய்வு வரி"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_account_config_settings_group_analytic_account_for_sales
@@ -286,7 +286,7 @@ msgstr "ரத்து"
 #. module: sale
 #: selection:sale.order,state:0 selection:sale.report,state:0
 msgid "Cancelled"
-msgstr ""
+msgstr "ரத்து"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_crm_team_use_invoices
@@ -371,7 +371,7 @@ msgstr "உருவாக்கப்பட்ட \nதேதி"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_create_date
 msgid "Creation Date"
-msgstr ""
+msgstr "உருவாக்கம் தேதி"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_crm_team_currency_id
@@ -386,7 +386,7 @@ msgstr "நாணயம்"
 #: model:ir.ui.view,arch_db:sale.view_order_product_search
 #: model:ir.ui.view,arch_db:sale.view_sales_order_filter
 msgid "Customer"
-msgstr ""
+msgstr "வாடிக்கையாளர்"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_client_order_ref
@@ -543,7 +543,7 @@ msgstr ""
 #. module: sale
 #: selection:sale.order,state:0
 msgid "Done"
-msgstr ""
+msgstr "முடிந்தது"
 
 #. module: sale
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:70
@@ -600,12 +600,12 @@ msgstr ""
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_product_search
 msgid "Extended Filters"
-msgstr ""
+msgstr "நீட்டிக்கப்பட்ட வடிப்பான்கள்"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_fiscal_position_id
 msgid "Fiscal Position"
-msgstr ""
+msgstr "நிதி நிலை"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_config_settings_sale_pricelist_setting
@@ -618,17 +618,17 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "பின்பற்றுபவர்கள்"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "பின்தொடர்பவர்கள் (சேனல்கள்)"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "பின்பற்றுபவர்கள் (பங்குதாரர்கள்)"
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.action_account_invoice_report_salesteam
@@ -649,7 +649,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:sale.view_sales_order_filter
 #: model:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "Group By"
-msgstr ""
+msgstr "மூலம் குழு"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv_id
@@ -670,12 +670,12 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_message_unread
 msgid "If checked new messages require your attention."
-msgstr ""
+msgstr "சோதனை செய்தால் புதிய செய்திகளுக்கு உங்கள் கவனம் தேவை."
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "சரிபார்க்கப்பட்டால், புதிய செய்திகளுக்கு உங்கள் கவனம் தேவை."
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv_deposit_account_id
@@ -716,7 +716,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model,name:sale.model_account_invoice_line
 msgid "Invoice Line"
-msgstr ""
+msgstr "விலைப்பட்டியல் வரி"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_invoice_lines
@@ -809,7 +809,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:sale.crm_team_salesteams_view_kanban
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Invoices"
-msgstr ""
+msgstr "பற்றுச்சீட்டுகள்"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_account_invoice_report_salesteam
@@ -866,7 +866,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "பின்பற்றுபவர்"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_last_post
@@ -913,7 +913,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_ids
 msgid "Messages"
-msgstr ""
+msgstr "செய்திகள்"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sales_order_filter
@@ -934,7 +934,7 @@ msgstr ""
 #: code:addons/sale/sale.py:96
 #, python-format
 msgid "New"
-msgstr ""
+msgstr "புதிய"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_quotation_form
@@ -982,7 +982,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "செயல்கள் எண்ணிக்கை"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_line_customer_lead
@@ -994,12 +994,12 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "நடவடிக்கை தேவைப்படும் செய்திகளின் எண்ணிக்கை"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_message_unread_counter
 msgid "Number of unread messages"
-msgstr ""
+msgstr "படிக்காத செய்திகளின் எண்ணிக்கை"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_module_website_quote
@@ -1151,7 +1151,7 @@ msgstr ""
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Print"
-msgstr ""
+msgstr "அச்சு"
 
 #. module: sale
 #: selection:sale.config.settings,module_website_quote:0
@@ -1186,7 +1186,7 @@ msgstr "தயாரிப்பு"
 #: model:ir.model.fields,field_description:sale.field_sale_report_categ_id
 #: model:ir.ui.view,arch_db:sale.view_order_product_search
 msgid "Product Category"
-msgstr ""
+msgstr "தயாரிப்பு வகை"
 
 #. module: sale
 #: model:ir.model,name:sale.model_product_template
@@ -1329,7 +1329,7 @@ msgstr ""
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Reporting"
-msgstr ""
+msgstr "அறிக்கையிடல்"
 
 #. module: sale
 #: selection:sale.order,state:0
@@ -1368,7 +1368,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:sale.view_order_product_search
 #: model:ir.ui.view,arch_db:sale.view_sales_order_filter
 msgid "Sales"
-msgstr ""
+msgstr "விற்பனை"
 
 #. module: sale
 #: model:ir.model,name:sale.model_sale_advance_payment_inv
@@ -1397,7 +1397,7 @@ msgstr ""
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Sales Information"
-msgstr ""
+msgstr "விற்பனை தகவல்"
 
 #. module: sale
 #: model:ir.model,name:sale.model_sale_order
@@ -1418,7 +1418,7 @@ msgstr ""
 #. module: sale
 #: model:ir.model,name:sale.model_sale_order_line
 msgid "Sales Order Line"
-msgstr ""
+msgstr "விற்பனை வரிசை வரிசை"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
@@ -1470,7 +1470,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:sale.view_order_product_search
 #: model:ir.ui.view,arch_db:sale.view_sales_order_filter
 msgid "Sales Team"
-msgstr ""
+msgstr "விற்பனை குழு"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_orders_to_invoice
@@ -1492,7 +1492,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:sale.view_sales_order_filter
 #: model:ir.ui.view,arch_db:sale.view_sales_order_line_filter
 msgid "Salesperson"
-msgstr ""
+msgstr "விற்பனையாளர்"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sales_order_filter
@@ -1567,14 +1567,14 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_origin
 msgid "Source Document"
-msgstr ""
+msgstr "மூல ஆவணம்"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_state
 #: model:ir.model.fields,field_description:sale.field_sale_report_state
 #: model:ir.ui.view,arch_db:sale.view_order_product_search
 msgid "Status"
-msgstr ""
+msgstr "நிலைமை"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_sales_config
@@ -1734,7 +1734,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_price_total
 #: model:ir.ui.view,arch_db:sale.view_order_line_tree
 msgid "Total"
-msgstr ""
+msgstr "மொத்த"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_report_price_total
@@ -1764,7 +1764,7 @@ msgstr "அலகு விலை"
 #: model:ir.model.fields,field_description:sale.field_sale_report_product_uom
 #: model:ir.ui.view,arch_db:sale.view_order_line_tree
 msgid "Unit of Measure"
-msgstr ""
+msgstr "அளவீட்டு அலகு"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_group_uom
@@ -1775,12 +1775,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_unread
 #: model:ir.ui.view,arch_db:sale.view_sales_order_filter
 msgid "Unread Messages"
-msgstr ""
+msgstr "படிக்காத செய்திகள்"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "படிக்காத செய்திகள்"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_amount_untaxed
@@ -1823,12 +1823,12 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "இணைய செய்திகள்"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "வலைத்தள தகவல்தொடர்பு வரலாறு"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv_advance_payment_method
@@ -1898,4 +1898,4 @@ msgstr ""
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_sale_pricelist_setting
 msgid "unknown"
-msgstr ""
+msgstr "தெரியாத"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-18 08:11+0000\n"
-"PO-Revision-Date: 2016-07-23 18:10+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2019-08-19 11:32+0000\n"
+"Last-Translator: Amit Spilman <amit@laylinetech.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/odoo/odoo-9/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: he\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_message_needaction
@@ -179,12 +179,12 @@ msgstr "עוקבים"
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "עוקבים (ערוצים)"
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "עוקבים (שותפים)"
 
 #. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_hr_contract_type_sequence
@@ -225,7 +225,7 @@ msgstr "אם מסומן אז הודעה חדשה דורשת התייחסותכם
 #. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_hr_contract_message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "אם סומן, הודעות חדשות דורשות את תשומת הלב שלך."
 
 #. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_hr_employee_vehicle_distance
@@ -240,7 +240,7 @@ msgstr "מידע"
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "האם עוקב"
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee_manager
@@ -255,7 +255,7 @@ msgstr ""
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_job_id
 msgid "Job Title"
-msgstr ""
+msgstr "הגדרת תפקיד"
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_message_last_post
@@ -324,7 +324,7 @@ msgstr "מספר הפעולות"
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee_children
 msgid "Number of Children"
-msgstr ""
+msgstr "מספר הילדים"
 
 #. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_hr_contract_message_needaction_counter
@@ -344,7 +344,7 @@ msgstr ""
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee_place_of_birth
 msgid "Place of Birth"
-msgstr ""
+msgstr "מקום לידה"
 
 #. module: hr_contract
 #: selection:hr.contract,state:0
@@ -418,27 +418,27 @@ msgstr "הודעות שלא נקראו"
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "מונה הודעות שלא נקראו"
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_base_action_rule_trg_date_resource_field_id
 msgid "Use employee work schedule"
-msgstr ""
+msgstr "השתמש בלוח הזמנים של העובדים"
 
 #. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_base_action_rule_trg_date_resource_field_id
 msgid "Use the user's working schedule."
-msgstr ""
+msgstr "השתמש בלוח הזמנים של המשתמש."
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_visa_expire
 msgid "Visa Expire Date"
-msgstr ""
+msgstr "תאריך תפוגה של הויזה"
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_visa_no
 msgid "Visa No"
-msgstr ""
+msgstr "מספר ויזה"
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_wage
@@ -458,12 +458,12 @@ msgstr "היסטוריית תקשורת מהאתר"
 #. module: hr_contract
 #: model:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "Work Permit"
-msgstr ""
+msgstr "אישור עבודה"
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_permit_no
 msgid "Work Permit No"
-msgstr ""
+msgstr "מספר אישור עבודה"
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_working_hours

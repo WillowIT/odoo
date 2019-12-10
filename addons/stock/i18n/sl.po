@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-13 09:40+0000\n"
-"PO-Revision-Date: 2018-01-24 11:03+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2019-08-19 05:43+0000\n"
+"Last-Translator: Tadej Lupšina <tadej@hbs.si>\n"
 "Language-Team: Slovenian (http://www.transifex.com/odoo/odoo-9/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -154,7 +154,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ", if accounting or purchase is installed"
-msgstr ""
+msgstr ", če je nameščeno knjigovodstvo ali nabava"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -215,14 +215,14 @@ msgstr ""
 msgid ""
 "<span class=\"label label-default text-center odoo_purple\">Validate the "
 "Delivery</span>"
-msgstr ""
+msgstr "<span class=\"label label-default text-center odoo_purple\">Overi dostavo</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "<span class=\"label label-default text-center odoo_purple\">Validate the "
 "Receipt Order</span>"
-msgstr ""
+msgstr "<span class=\"label label-default text-center odoo_purple\">Overi prejemnico</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.product_form_view_procurement_button
@@ -317,32 +317,32 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.report_delivery_document
 #: model:ir.ui.view,arch_db:stock.report_picking
 msgid "<span><strong>Customer Address:</strong></span>"
-msgstr ""
+msgstr "<span><strong>Naslov kupca:</strong></span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_picking
 msgid "<span><strong>Delivery Address:</strong></span>"
-msgstr ""
+msgstr "<span><strong>Naslov za dostavo:</strong></span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_picking
 msgid "<span><strong>Vendor Address:</strong></span>"
-msgstr ""
+msgstr "<span><strong>Naslov dobavitelja:</strong></span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_picking
 msgid "<span><strong>Warehouse Address:</strong></span>"
-msgstr ""
+msgstr "<span><strong>Naslov skladišča:</strong></span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_picking_type_kanban
 msgid "<span>New</span>"
-msgstr ""
+msgstr "<span>Nov</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_picking_type_kanban
 msgid "<span>View</span>"
-msgstr ""
+msgstr "<span>Prikaži</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -416,7 +416,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Date</strong>"
-msgstr ""
+msgstr "<strong>Datum</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_picking
@@ -436,13 +436,13 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Inventory</strong>"
-msgstr ""
+msgstr "<strong>Inventar</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_delivery_document
 #: model:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Location</strong>"
-msgstr ""
+msgstr "<strong>Lokacija</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -495,7 +495,7 @@ msgstr ""
 msgid ""
 "<strong>No supplier available for a purchase:</strong> you have to define a "
 "supplier in the Procurements tab of the product form."
-msgstr ""
+msgstr "<strong>Ni dobavitelja na voljo za nabavo:</strong> v zavihku Oskrba na obrazcu proizvoda določite dobavitelja."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -503,7 +503,7 @@ msgid ""
 "<strong>On Hand products</strong> are physically located in the warehouse "
 "location at the current time. This includes items that are already allocated"
 " to fulfilling production needs or sales orders"
-msgstr ""
+msgstr "<strong>Proizvodi pri roki</strong> so trenutno fizično locirani na lokaciji skladišča. To vključuje proizvode, ki so že rezervirani za izpolnitev potreb proizvodnje ali prodajnih nalogov."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_delivery_document
@@ -514,7 +514,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Package</strong>"
-msgstr ""
+msgstr "<strong>Paket</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_delivery_document
@@ -526,7 +526,7 @@ msgstr "<strong>Artikel</strong>"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Production Lot</strong>"
-msgstr ""
+msgstr "<strong>Proizvodna serija</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_delivery_document
@@ -539,7 +539,7 @@ msgstr "<strong>Količina</strong>"
 #: model:ir.ui.view,arch_db:stock.report_delivery_document
 #: model:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Scheduled Date</strong>"
-msgstr ""
+msgstr "<strong>Načrtovani datum</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_delivery_document
@@ -556,12 +556,12 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Source</strong>"
-msgstr ""
+msgstr "<strong>Vir:</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>State</strong>"
-msgstr ""
+msgstr "<strong>Regija</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_delivery_document
@@ -578,7 +578,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Total Quantity</strong>"
-msgstr ""
+msgstr "<strong>Skupna količina</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -923,7 +923,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_wms_barcode_nomenclature_all
 msgid "Barcode Nomenclatures"
-msgstr ""
+msgstr "Nomenklatura črtne kode"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_config_settings_module_stock_barcode
@@ -940,7 +940,7 @@ msgstr ""
 #. module: stock
 #: model:stock.location,name:stock.stock_location_4
 msgid "Big Vendors"
-msgstr ""
+msgstr "Veliki dobavitelji"
 
 #. module: stock
 #: selection:stock.warehouse,delivery_steps:0
@@ -1117,7 +1117,7 @@ msgstr "Zahtevki"
 #: model:ir.actions.act_window,help:stock.action_picking_tree_waiting
 #: model:ir.actions.act_window,help:stock.stock_picking_action_picking_type
 msgid "Click here to create a new transfer."
-msgstr ""
+msgstr "Ustvari nov prenos"
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_deliver_move
@@ -1162,7 +1162,7 @@ msgstr ""
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_picking_type_list
 msgid "Click to define a new transfer."
-msgstr ""
+msgstr "Določi nov prenos"
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_warehouse_form
@@ -1220,7 +1220,7 @@ msgstr "Družba"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_date_done
 msgid "Completion Date of Transfer"
-msgstr ""
+msgstr "Datum zaključka prenosa"
 
 #. module: stock
 #: model:ir.model,name:stock.model_procurement_orderpoint_compute
@@ -1261,7 +1261,7 @@ msgstr "Potrjeni premiki"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "Congratulations!"
-msgstr ""
+msgstr "Čestitke"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_stock_lines_date_search
@@ -1321,7 +1321,7 @@ msgstr "Ustvari nabavo"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "Create Vendors"
-msgstr ""
+msgstr "Ustvari dobavitelje"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -1774,7 +1774,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_product_product_description_picking
 #: model:ir.model.fields,field_description:stock.field_product_template_description_picking
 msgid "Description on Picking"
-msgstr ""
+msgstr "Opis na zbirniku"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_move_form
@@ -2165,7 +2165,7 @@ msgstr "Vhod B"
 #. module: stock
 #: model:stock.location,name:stock.stock_location_5
 msgid "Generic IT Vendors"
-msgstr ""
+msgstr "Generični IT dobavitelji"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_fixed_putaway_strat_sequence
@@ -2287,7 +2287,7 @@ msgstr "Zgodovina"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "How to use Lot Tracking:"
-msgstr ""
+msgstr "Kako se uporablja sledenje lotom"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_make_procurement_id
@@ -2339,7 +2339,7 @@ msgstr "INV: %s"
 #. module: stock
 #: model:stock.location,name:stock.stock_location_3
 msgid "IT Vendors"
-msgstr ""
+msgstr "Dobavitelj IT"
 
 #. module: stock
 #: model:product.product,name:stock.product_icecream
@@ -2509,18 +2509,18 @@ msgstr ""
 #. module: stock
 #: model:ir.model,name:stock.model_stock_immediate_transfer
 msgid "Immediate Transfer"
-msgstr ""
+msgstr "Takojšen prenos"
 
 #. module: stock
 #: code:addons/stock/stock.py:1559
 #, python-format
 msgid "Immediate Transfer?"
-msgstr ""
+msgstr "Takojšen prenos?"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid "Immediate transfer?"
-msgstr ""
+msgstr "Takojšen prenos?"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -2758,7 +2758,7 @@ msgstr "Popravki inventarja"
 #. module: stock
 #: model:web.planner,tooltip_planner:stock.planner_inventory
 msgid "Inventory Configuration: a step-by-step guide."
-msgstr ""
+msgstr "Nastavitve materialnega knjigovodstva: vodič po korakih."
 
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_stock_inventory_control
@@ -3415,7 +3415,7 @@ msgstr "Spremeni"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_picking_type_kanban
 msgid "More <i class=\"fa fa-caret-down\"/>"
-msgstr ""
+msgstr "Več <i class=\"fa fa-caret-down\"/>"
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_picking_tree
@@ -3555,7 +3555,7 @@ msgstr "Nova količina na zalogi"
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_form
 msgid "New Transfer"
-msgstr ""
+msgstr "Nov prenos"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_pack_operation_fresh_record
@@ -3580,7 +3580,7 @@ msgstr "Ni še premika zaloge"
 #. module: stock
 #: selection:product.template,tracking:0
 msgid "No Tracking"
-msgstr ""
+msgstr "Brez sledenja"
 
 #. module: stock
 #: selection:stock.config.settings,group_stock_adv_location:0
@@ -3671,7 +3671,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_location_path_delay
 msgid "Number of days needed to transfer the goods"
-msgstr ""
+msgstr "Število dni potrebnih za prenos blaga"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_message_needaction_counter
@@ -3804,7 +3804,7 @@ msgstr "Operacije"
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_pickingtype
 msgid "Operations Types"
-msgstr ""
+msgstr "Tipi operacij"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_linked_move_operation_ids
@@ -3998,7 +3998,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_quant_package_form
 msgid "Package Transfers"
-msgstr ""
+msgstr "Prenosi pakiranja"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_package_view
@@ -4113,7 +4113,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "Periodical Tasks"
-msgstr ""
+msgstr "Periodična opravila"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_inventory_filter
@@ -4248,7 +4248,7 @@ msgstr "Zbirniki, ki zamujajo glede na planirani čas"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_stock_level_forecast_filter
 msgid "Pivot"
-msgstr ""
+msgstr "Pivot"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_make_procurement_date_planned
@@ -4944,7 +4944,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "Resolve Procurement Exceptions"
-msgstr ""
+msgstr "Razreši oskrbovalne izjeme"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_resupply_from_wh
@@ -5063,7 +5063,7 @@ msgstr "Zagon načrtovalca"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "Sales Flow"
-msgstr ""
+msgstr "Prodajni tok"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_pack_operation_details_form_save
@@ -5269,7 +5269,7 @@ msgstr "Odpošiljanje neposredno iz zaloge (le odpošiljanje)"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_stock_config_settings
 msgid "Shipping Connectors"
-msgstr ""
+msgstr "Povezovalniki za odpošiljanje"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_code
@@ -6111,12 +6111,12 @@ msgstr "Transfer"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_picking_partner_id
 msgid "Transfer Destination Address"
-msgstr ""
+msgstr "Ciljni naslov prenosa"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_picking_id
 msgid "Transfer Reference"
-msgstr ""
+msgstr "Sklic prenosa"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_tree
@@ -6221,7 +6221,7 @@ msgstr "Merske enote"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "Units of Measures"
-msgstr ""
+msgstr "Merske enote"
 
 #. module: stock
 #: code:addons/stock/stock.py:4169
@@ -6369,12 +6369,12 @@ msgstr "Prodajalec"
 #: model:ir.model.fields,field_description:stock.field_res_partner_property_stock_supplier
 #: selection:stock.location,usage:0
 msgid "Vendor Location"
-msgstr ""
+msgstr "Lokacija dobavitelja"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_location_search
 msgid "Vendor Locations"
-msgstr ""
+msgstr "Lokacije dobaviteljev"
 
 #. module: stock
 #: model:stock.location,name:stock.stock_location_suppliers
@@ -6854,7 +6854,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "Your Vendors"
-msgstr ""
+msgstr "Vaši dobavitelji"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-09 09:18+0000\n"
-"PO-Revision-Date: 2018-02-17 20:53+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2019-05-24 15:06+0000\n"
+"Last-Translator: Gvantsa Gvinianidze <gvantsa@live.com>\n"
 "Language-Team: Georgian (http://www.transifex.com/odoo/odoo-9/language/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: ka\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #. module: purchase
 #: model:mail.template,body_html:purchase.email_template_edi_purchase_done
@@ -246,7 +246,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "საჭიროა ქმედება"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_account_invoice_purchase_id
@@ -788,7 +788,7 @@ msgstr "ინვოისი"
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_invoice_line
 msgid "Invoice Line"
-msgstr ""
+msgstr "ინვოისისი სტრიქონი"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line_invoice_lines
@@ -808,7 +808,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Invoiced"
-msgstr ""
+msgstr "ინვოისრებული"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_invoice_ids
@@ -1100,7 +1100,7 @@ msgstr "პროდუქტი"
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_product_category_config_purchase
 msgid "Product Categories"
-msgstr ""
+msgstr "პროდუქტის კატეგორიები"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_product_category
@@ -1622,7 +1622,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model,name:purchase.model_stock_picking
 msgid "Transfer"
-msgstr ""
+msgstr "ტრანსფერი"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:283
@@ -1659,7 +1659,7 @@ msgstr ""
 #: model:ir.ui.menu,name:purchase.menu_purchase_unit_measure_purchase
 #: model:ir.ui.menu,name:purchase.menu_purchase_uom_form_action
 msgid "Units of Measure"
-msgstr ""
+msgstr "საზომი ერთეულები"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_message_unread
@@ -1723,7 +1723,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 #: model:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Vendor"
-msgstr ""
+msgstr "მომწოდებელი"
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.act_res_partner_2_supplier_invoices
@@ -1777,12 +1777,12 @@ msgstr "საწყობი"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "ვებ-გვერდის შეტყობინებები"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "ვებ-გვერდის კომუნიკაციის ისტორია"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_stock_warehouse_buy_to_resupply

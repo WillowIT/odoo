@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-22 13:16+0000\n"
-"PO-Revision-Date: 2017-06-16 12:22+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2018-12-30 11:20+0000\n"
+"Last-Translator: Linas Versada <linaskrisiukenas@gmail.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/odoo/odoo-9/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: lt\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #. module: account_asset
 #: code:addons/account_asset/account_asset.py:350
@@ -575,7 +575,7 @@ msgstr "Prenumeratoriai (partneriai)"
 msgid ""
 "From this report, you can have an overview on all depreciations. The\n"
 "            search bar can also be used to personalize your assets depreciation reporting."
-msgstr ""
+msgstr "Šioje ataskaitoje galite peržiūrėti visus nusidėvėjimus.\n            Paiškos eilutė taip pat gali būti naudojama norint personalizuoti turto ataskaitą."
 
 #. module: account_asset
 #: model:ir.ui.menu,name:account_asset.menu_asset_depreciation_confirmation_wizard
@@ -644,14 +644,14 @@ msgid ""
 "Indicates that the first depreciation entry for this asset have to be done "
 "from the purchase date instead of the first January / Start date of fiscal "
 "year"
-msgstr ""
+msgstr "Indikuoja, kad pirmasis nusidėvėjimo įrašas šiam turtui turi būti daromas nuo įsigijimo datos, o ne nuo Sausio / finansinių metų pradžios."
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_category_prorata
 msgid ""
 "Indicates that the first depreciation entry for this asset have to be done "
 "from the purchase date instead of the first of January"
-msgstr ""
+msgstr "Indikuoja, kad pirmasis nusidėvėjimo įrašas šiam turtui turi būti daromas nuo įsigijimo datos, o ne nuo Sausio pirmos."
 
 #. module: account_asset
 #: model:ir.model,name:account_asset.model_account_invoice
@@ -873,7 +873,7 @@ msgstr "Nudėvėjimas nuo pirkimo dienos"
 msgid ""
 "Prorata temporis can be applied only for time method \"number of "
 "depreciations\"."
-msgstr ""
+msgstr "Prorata temporis gali būti naudojamas tik  laiko metodui \"nusidėvėjimų kiekis\"."
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_search
@@ -994,7 +994,7 @@ msgstr "Nusidėvėjimų skaičius per kuriuos nudėvimas ilgalaikis turtas"
 msgid ""
 "This wizard will post installment/depreciation lines for the selected month.<br/>\n"
 "                        This will generate journal entries for all related installment lines on this period of asset/revenue recognition as well."
-msgstr ""
+msgstr "Šis vedlys įrašys nusidėvėjimo/periodinio mokėjimo eilutes pasirinktam mėnesiui.<br/>\n                        Tai taip pat sugeneruos žurnalo įrašus visoms susijusioms periodinio mokėjimo eilutėms šiam pajamų pripažinimo periodui."
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_method_time
@@ -1005,7 +1005,7 @@ msgstr "Laikotarpio metodas"
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_form
 msgid "Time Method Based On"
-msgstr ""
+msgstr "Laiko metodas paremtas"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_type
@@ -1045,12 +1045,12 @@ msgstr "Pardavėjas"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "Svetainės pranešimai"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_asset_website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Svetainės komunikacijos istorija"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_asset_state

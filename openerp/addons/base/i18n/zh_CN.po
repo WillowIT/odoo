@@ -42,8 +42,8 @@ msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-22 07:25+0000\n"
-"PO-Revision-Date: 2018-03-21 18:06+0000\n"
-"Last-Translator: e2f_cn c7 <e2f_cn_c7@outlook.com>\n"
+"PO-Revision-Date: 2018-11-16 13:47+0000\n"
+"Last-Translator: inspur qiuguodong <qiuguodong@inspur.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-9/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3564,7 +3564,7 @@ msgid ""
 "This module adds project issues inside your account's page on website if project_issue and website_portal are installed.\n"
 "==================================================================================================\n"
 "    "
-msgstr ""
+msgstr "\n该模块安装并添加项目研讨至您的project_issue 和 website_portal 的账户界面.\n==================================================================================================\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_portal_gamification
@@ -3682,7 +3682,7 @@ msgstr "\n此模块用于管理员工的考勤.\n===============================
 msgid ""
 "\n"
 "This module allows a customer to give rating on Project Issue.\n"
-msgstr ""
+msgstr "\n本模块允许客户在项目中进行点评。\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_rating
@@ -3866,7 +3866,7 @@ msgid ""
 "This module display project customer satisfaction on your website.\n"
 "==================================================================================================\n"
 "    "
-msgstr ""
+msgstr "\n该模块在您的网站上显示项目客户满意度。\n==================================================================================================\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_base_setup
@@ -4257,7 +4257,7 @@ msgid ""
 "Help your customers with this chat, and analyse their feedback.\n"
 "\n"
 "        "
-msgstr ""
+msgstr "\n支持在线聊天\n==========================\n\n允许在与当前服务器进行交流的任何网页上放置即时消息部件\n并将访客请求发送给几个在线.\n使用此聊天为您的客户提供帮助，并分析其反馈.\n\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_membership
@@ -7943,7 +7943,7 @@ msgid ""
 "Dependencies of compute method; a list of comma-separated field names, like\n"
 "\n"
 "    name, partner_id.name"
-msgstr ""
+msgstr "计算方法的相关性；一列以逗号分隔的字段名称，例如\n\n    name, partner_id.name"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module_dependency_depend_id
@@ -8776,7 +8776,7 @@ msgstr "联邦航运"
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_fr_fec
 msgid "Fichier d'Échange Informatisé (FEC) for France"
-msgstr ""
+msgstr "法国的电子数据交换文件 (FEC)"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_fr_fec
@@ -8946,7 +8946,7 @@ msgid ""
 "\n"
 "Technical Details:\n"
 "%s"
-msgstr ""
+msgstr "由于格式不匹配或文件格式错误导致文件未导入。(有效格式为 .csv, .po, .pot)\n\n技术细节:\n%s"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_act_window_filter
@@ -9639,7 +9639,7 @@ msgstr "条码扫描枪的硬件驱动"
 #. module: base
 #: model:ir.module.module,summary:base.module_hw_blackbox_be
 msgid "Hardware Driver for Belgian Fiscal Data Modules"
-msgstr ""
+msgstr "比利时财政数据模块的硬件驱动程序"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hw_escpos
@@ -9744,7 +9744,7 @@ msgstr ""
 msgid ""
 "Helps you manage your mass mailing for design\n"
 "                professional emails and reuse templates."
-msgstr ""
+msgstr "帮助您管理群发邮件，用于设计专业邮件和重用模板。"
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_project_management
@@ -9758,12 +9758,12 @@ msgstr "帮助你管理你的项目和任务，通过跟踪它们，生成规划
 msgid ""
 "Helps you manage your purchase-related processes such as requests for "
 "quotations, supplier bills, etc..."
-msgstr ""
+msgstr "帮助您管理与采购相关的流程，如报价请求，供应商账单等。"
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_survey
 msgid "Helps you manage your survey for review of different-different users."
-msgstr ""
+msgstr "帮助您管理调查问卷，以获得不同的用户的评论。"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.wizard_lang_export
@@ -10088,7 +10088,7 @@ msgstr "如果设置，此字段将存储在序列化字段的简单结构中，
 msgid ""
 "If several child actions return an action, only the last one will be executed.\n"
 "                                    This may happen when having server actions executing code that returns an action, or server actions returning a client action."
-msgstr ""
+msgstr "假如多个命令同时触发,仅最后一个操作被执行.\n                                   这种多命令执行的情况只有服务器数据回滚或多个客户端同时反馈任务执行的命令的时才会发生。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_users_action_id
@@ -10134,7 +10134,7 @@ msgstr ""
 msgid ""
 "If you check this box, your customized translations will be overwritten and "
 "replaced by the official ones."
-msgstr ""
+msgstr "如果选中此框，您的自定义翻译将被覆盖并替换为官方翻译。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_act_report_xml_attachment_use
@@ -11919,6 +11919,18 @@ msgstr "模式"
 #: model:ir.ui.view,arch_db:base.view_server_action_search
 msgid "Model"
 msgstr "模型"
+
+#. module: base
+#: code:addons/base/ir/ir_model.py:382
+#, python-format
+msgid "Model %s does not exist"
+msgstr "模型 %s 不存在"
+
+#. module: base
+#: code:addons/base/ir/ir_model.py:383
+#, python-format
+msgid "Please specify a valid model for the object relation"
+msgstr "请为对象关系指定有效的模型"
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:454
@@ -15991,7 +16003,7 @@ msgstr "主报表文件的路径（取决于报表类型），或者如果内容
 msgid ""
 "The path to the main report file/controller (depending on Report Type) or "
 "empty if the content is in another data field"
-msgstr ""
+msgstr "主报表文件的路径（取决于报表类型），或者如果内容位于其他字段中，则为空"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_cron_priority
@@ -16171,7 +16183,7 @@ msgid ""
 "This is the module to manage the accounting chart for Norway in Odoo.\n"
 "\n"
 "Updated for Odoo 9 by Bringsvor Consulting AS <www.bringsvor.com>\n"
-msgstr ""
+msgstr "这是Odoo中管理挪威财务报表的模块.\n\n百度翻译 由Brimvor咨询更新为Odoo 9作为www. Brimvor\n"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_base_module_upgrade
