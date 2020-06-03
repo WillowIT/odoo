@@ -1,0 +1,18 @@
+server {
+    rewrite_log  on;
+    listen 8088 default_server;
+    listen [::]:8088 default_server;
+    server_name  _;
+    proxy_read_timeout  30m;
+    error_page 497  https://$host:$server_port$request_uri;
+    location / {
+        proxy_pass http://127.0.0.1:8069;
+        proxy_set_header REMOTE_ADDR $remote_addr;
+        proxy_set_header Host $host:$server_port;
+    }
+    location /longpolling {
+        proxy_pass http://127.0.0.1:8072;
+        proxy_set_header REMOTE_ADDR $remote_addr;
+        proxy_set_header Host $host:$server_port;
+    }
+}
