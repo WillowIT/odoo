@@ -5,8 +5,7 @@ ENV LANG C.UTF-8
 USER root
 RUN useradd -ms /bin/bash odoo
 COPY ./ /home/odoo/odoo-13/odoo/
-RUN mkdir /home/odoo/.ssh
-COPY ./container/.ssh/* /home/odoo/.ssh/
+COPY ./container/authorized_keys /home/odoo/.ssh/
 COPY ./container/odoo-server.conf /home/odoo/
 COPY ./container/start_odoo.sh /home/odoo/
 RUN chown -R odoo:odoo /home/odoo/*
