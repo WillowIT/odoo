@@ -161,9 +161,12 @@ openerp_mailgate: "|/path/to/openerp-mailgate.py --host=localhost -u %(uid)d -p 
         return True
 
     def _fetch_mails(self, cr, uid, ids=False, context=None):
+        _logger.info('fetch_mails start')
         if not ids:
             ids = self.search(cr, uid, [('state','=','done'),('type','in',['pop','imap'])])
-        return self.fetch_mail(cr, uid, ids, context=context)
+        _logger.info('fetch_mails ids: %s' % ids)
+        res = self.fetch_mail(cr, uid, ids, context=context)
+        _logger.info('fetch_mails end')
 
     def fetch_mail(self, cr, uid, ids, context=None):
         """WARNING: meant for cron usage only - will commit() after each email!"""
@@ -172,7 +175,7 @@ openerp_mailgate: "|/path/to/openerp-mailgate.py --host=localhost -u %(uid)d -p 
         mail_thread = self.pool.get('mail.thread')
         action_pool = self.pool.get('ir.actions.server')
         for server in self.browse(cr, uid, ids, context=context):
-            _logger.info('start checking for new emails on %s server %s', server.type, server.name)
+            _logger.info('fetch_mail start checking for new emails on %s server %s', server.type, server.name)
             context.update({'fetchmail_server_id': server.id, 'server_type': server.type})
             count, failed = 0, 0
             imap_server = False
@@ -210,11 +213,16 @@ openerp_mailgate: "|/path/to/openerp-mailgate.py --host=localhost -u %(uid)d -p 
             elif server.type == 'pop':
                 try:
                     while True:
+                        _logger.info('fetch_mail pop connect on %s server %s', server.type, server.name)
                         pop_server = server.connect()
+                        _logger.info('fetch_mail pop connected on %s server %s', server.type, server.name)
                         (numMsgs, totalSize) = pop_server.stat()
+                        _logger.info('fetch_mail pop stat on %s server %s: %s, %s', server.type, server.name, numMsgs, totalSize)
                         pop_server.list()
+                        _logger.info('fetch_mail pop list on %s server %s', server.type, server.name)
                         for num in range(1, min(MAX_POP_MESSAGES, numMsgs) + 1):
                             (header, msges, octets) = pop_server.retr(num)
+                            _logger.info('fetch_mail pop retr on %s server %s', server.type, server.name)
                             msg = '\n'.join(msges)
                             res_id = None
                             try:
@@ -223,13 +231,17 @@ openerp_mailgate: "|/path/to/openerp-mailgate.py --host=localhost -u %(uid)d -p 
                                                                      save_original=server.original,
                                                                      strip_attachments=(not server.attach),
                                                                      context=context)
+                                _logger.info('fetch_mail message_process on %s server %s', server.type, server.name)
                                 pop_server.dele(num)
+                                _logger.info('fetch_mail pop dele on %s server %s', server.type, server.name)
                             except Exception:
                                 _logger.info('Failed to process mail from %s server %s.', server.type, server.name, exc_info=True)
                                 failed += 1
                             if res_id and server.action_id:
                                 action_pool.run(cr, uid, [server.action_id.id], {'active_id': res_id, 'active_ids': [res_id], 'active_model': context.get("thread_model", server.object_id.model)})
+                                _logger.info('fetch_mail action on %s server %s', server.type, server.name)
                             cr.commit()
+                            _logger.info('fetch_mail commit  on %s server %s', server.type, server.name)
                         if numMsgs < MAX_POP_MESSAGES:
                             break
                         pop_server.quit()
@@ -239,7 +251,10 @@ openerp_mailgate: "|/path/to/openerp-mailgate.py --host=localhost -u %(uid)d -p 
                 finally:
                     if pop_server:
                         pop_server.quit()
+                        _logger.info('fetch_mail pop final quit on %s server %s', server.type, server.name)
+            _logger.info('fetch_mail pre final write on %s server %s', server.type, server.name)
             server.write({'date': time.strftime(tools.DEFAULT_SERVER_DATETIME_FORMAT)})
+            _logger.info('fetch_mail post final write on %s server %s', server.type, server.name)
         return True
 
     def _update_cron(self, cr, uid, context=None):
