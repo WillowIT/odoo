@@ -29,7 +29,7 @@ RUN echo "NOTE: This is containerised Odoo Instance.\n      Changes made outside
 
 # Install WKHTML
 RUN set -x; \
-    curl -o wkhtmltox.deb -sSL https://downloads.wkhtmltopdf.org/0.12/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb \
+    curl -o wkhtmltox.deb -sSL https://downloads.wkhtmltopdf.org/0.12/0.12.5/wkhtmltox_0.12.5-1.focal_amd64.deb \
     && apt-get install -y --no-install-recommends ./wkhtmltox.deb \
     && rm -rf /var/lib/apt/lists/* wkhtmltox.deb
 
